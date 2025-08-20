@@ -17,6 +17,9 @@
 youtube.com##.sponsorSkipNoticeTableContainer,.sponsorBlockRectangleTooltip:style(background-color:rgba(28,28,28,0.7)!important)
 ! smaller ui
 youtube.com##.sponsorSkipNoticeTableContainer>table:style(border-collapse:collapse!important)
+youtube.com###sponsorSkipNoticeFirstRowSubmissionNotice,#sponsorSkipNoticeSecondRowSubmissionNotice:style(display:block!important;padding-block:5px!important)
+youtube.com###sponsorSkipNoticeFirstRowSubmissionNotice:style(border-bottom:1px solid white!important;margin-right:10px!important)
+youtube.com###sponsorSkipNoticeSecondRowSubmissionNotice:style(border-top:1px solid white!important;margin-right:10px!important)
 
 ! TECHNOPAT
 ||gravatar.com$image,domain=www.technopat.net
