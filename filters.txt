@@ -10,6 +10,8 @@ techolay.net##.message--solution,.message--solution:hover:style(z-index:none!imp
 techolay.net##.userBanner,.userBanner:hover:style(z-index:none!important;position:none!important;box-shadow:none!important;transform:none!important)
 ! gravatar
 ||gravatar.com$image,domain=techolay.net
+! logo
+techolay.net###header .p-header-logo--image img:style(margin-top:-19px!important;margin-bottom:-7px!important)
 
 ! TECHNOPAT
 ||gravatar.com$image,domain=www.technopat.net
