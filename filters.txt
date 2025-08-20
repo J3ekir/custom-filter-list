@@ -7,6 +7,8 @@
 ! DIZIBOX
 ! vote box
 dizibox.*##.vote-box
+! imdb 7+
+dizibox.*###main-wrapper>.ff-2
 
 ! GENERIC
 ! xenforo codemirror editor height
