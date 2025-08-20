@@ -15,6 +15,8 @@
 ! SPONSORBLOCK
 ! ui transparency
 youtube.com##.sponsorSkipNoticeTableContainer,.sponsorBlockRectangleTooltip:style(background-color:rgba(28,28,28,0.7)!important)
+! smaller ui
+youtube.com##.sponsorSkipNoticeTableContainer>table:style(border-collapse:collapse!important)
 
 ! TECHNOPAT
 ||gravatar.com$image,domain=www.technopat.net
