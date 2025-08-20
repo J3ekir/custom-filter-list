@@ -9,6 +9,9 @@
 dizibox.*##.vote-box
 ! imdb 7+
 dizibox.*###main-wrapper>.ff-2
+! fullscreen
+dizibox.*##body:style(margin:0!important)
+dizibox.*###main-wrapper:style(margin:0!important;width:unset!important)
 
 ! GENERIC
 ! xenforo codemirror editor height
