@@ -17,6 +17,8 @@
 www.technopat.net##.overlay-container.is-active > .overlay[data-url$="/report"]:style(margin-block:0!important)
 ! footer right
 www.technopat.net##.p-footer-row-opposite
+! signature inline spoiler
+www.technopat.net##.message-signature:has([data-xf-click="toggle-class"][data-class="bbCodeInlineSpoiler"])
 
 ! TECHOLAY
 ! solution effects
@@ -31,3 +33,5 @@ techolay.net###header .p-header-logo--image img:style(margin-top:-19px!important
 techolay.net##.overlay-container.is-active > .overlay[data-url$="/report"]:style(margin-block:0!important)
 ! footer right
 techolay.net##.p-footer-row-opposite
+! signature inline spoiler
+techolay.net##.message-signature:has([data-xf-click="toggle-class"][data-class="bbCodeInlineSpoiler"])
