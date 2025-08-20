@@ -12,6 +12,9 @@ dizibox.*###main-wrapper>.ff-2
 ! fullscreen
 dizibox.*##body:style(margin:0!important)
 dizibox.*###main-wrapper:style(margin:0!important;width:unset!important)
+! devtools
+||cdn.jsdelivr.net/npm/devtools-detector$script
+||dbx.molystream.org/assets/s.js$script
 
 ! GENERIC
 ! xenforo codemirror editor height
