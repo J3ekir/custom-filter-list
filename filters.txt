@@ -6,6 +6,8 @@
 ! GENERIC
 ! xenforo codemirror editor height
 *##.codeEditor.CodeMirror:matches-path(admin.php):style(height:max-content!important)
+! xenforo codemirror editor compare height
+*##.block-body.block-row.block-body--contained:has(>.diffList.diffList--code):style(max-height:none!important)
 
 ! TECHNOPAT
 ||gravatar.com$image,domain=www.technopat.net
