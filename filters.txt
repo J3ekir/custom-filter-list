@@ -1,0 +1,4 @@
+! [Adblock Plus 2.0]
+! Title: J3ekir's Custom List
+! License: https://github.com/J3ekir/custom-filter-list/blob/main/LICENSE
+! Homepage: https://github.com/J3ekir/custom-filter-list
