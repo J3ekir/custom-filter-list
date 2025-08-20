@@ -20,6 +20,10 @@ youtube.com##.sponsorSkipNoticeTableContainer>table:style(border-collapse:collap
 youtube.com###sponsorSkipNoticeFirstRowSubmissionNotice,#sponsorSkipNoticeSecondRowSubmissionNotice:style(display:block!important;padding-block:5px!important)
 youtube.com###sponsorSkipNoticeFirstRowSubmissionNotice:style(border-bottom:1px solid white!important;margin-right:10px!important)
 youtube.com###sponsorSkipNoticeSecondRowSubmissionNotice:style(border-top:1px solid white!important;margin-right:10px!important)
+! smaller ui segments
+youtube.com###sponsorSkipNoticeMiddleRowSubmissionNotice>td>:not(:last-child):style(border-bottom:1px solid white!important)
+youtube.com###sponsorSkipNoticeMiddleRowSubmissionNotice>td>div:style(margin:0!important;padding-block:5px!important)
+youtube.com###sponsorSkipNoticeMiddleRowSubmissionNotice:style(margin-right:10px!important)
 
 ! TECHNOPAT
 ||gravatar.com$image,domain=www.technopat.net
