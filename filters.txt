@@ -55,3 +55,5 @@ techolay.net##.p-navgroup.cxf-styleVariations
 ! TWITCH
 ! ads
 twitch.tv##+js(twitch-videoad)
+! prime badge
+twitch.tv##.prime-offers__pill
