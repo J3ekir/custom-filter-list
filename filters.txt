@@ -38,3 +38,7 @@ techolay.net##.p-footer-row-opposite
 techolay.net##.message-signature:has([data-xf-click="toggle-class"][data-class="bbCodeInlineSpoiler"])
 ! style variations
 techolay.net##.p-navgroup.cxf-styleVariations
+
+! TWITCH
+! ads
+twitch.tv##+js(twitch-videoad)
