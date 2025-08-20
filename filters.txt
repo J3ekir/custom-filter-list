@@ -12,6 +12,10 @@
 ! xenforo codemirror editor history height
 *##.block-body.block-row.block-body--contained:has(>pre:not(:has(*))):style(max-height:none!important)
 
+! SPONSORBLOCK
+! ui transparency
+youtube.com##.sponsorSkipNoticeTableContainer,.sponsorBlockRectangleTooltip:style(background-color:rgba(28,28,28,0.7)!important)
+
 ! TECHNOPAT
 ||gravatar.com$image,domain=www.technopat.net
 ! report overlay
