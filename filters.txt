@@ -8,3 +8,5 @@
 techolay.net##.message--solution,.message--solution:hover:style(z-index:none!important;position:none!important;box-shadow:none!important;transform:none!important)
 ! user group banner
 techolay.net##.userBanner,.userBanner:hover:style(z-index:none!important;position:none!important;box-shadow:none!important;transform:none!important)
+! gravatar
+||gravatar.com$image,domain=techolay.net
