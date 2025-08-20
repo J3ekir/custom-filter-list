@@ -4,6 +4,10 @@
 ! License: https://github.com/J3ekir/custom-filter-list/blob/main/LICENSE
 ! Homepage: https://github.com/J3ekir/custom-filter-list
 
+! DIZIBOX
+! vote box
+dizibox.*##.vote-box
+
 ! GENERIC
 ! xenforo codemirror editor height
 *##.codeEditor.CodeMirror:matches-path(admin.php):style(height:max-content!important)
