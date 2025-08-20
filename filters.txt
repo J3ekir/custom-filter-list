@@ -3,6 +3,10 @@
 ! License: https://github.com/J3ekir/custom-filter-list/blob/main/LICENSE
 ! Homepage: https://github.com/J3ekir/custom-filter-list
 
+! GENERIC
+! xenforo codemirror editor height
+*##.codeEditor.CodeMirror:matches-path(admin.php):style(height:max-content!important)
+
 ! TECHOLAY
 ! solution effects
 techolay.net##.message--solution,.message--solution:hover:style(z-index:none!important;position:none!important;box-shadow:none!important;transform:none!important)
