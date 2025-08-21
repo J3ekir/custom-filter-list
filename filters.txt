@@ -46,6 +46,10 @@ dizibox.*###main-wrapper:style(margin:0!important;width:unset!important)
 ! xenforo codemirror editor history height
 *##.block-body.block-row.block-body--contained:has(>pre:not(:has(*))):style(max-height:none!important)
 
+! MOZILLA
+! To use these add-ons, you'll need to download Firefox.
+addons.mozilla.org##.Notice.Notice-warning.GetFirefoxBanner
+
 ! SBBROWSER
 ! all table cells
 sb.ltn.fi##.table>:not(caption)>*>*:style(padding-block:.25rem!important)
