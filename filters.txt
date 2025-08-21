@@ -4,6 +4,28 @@
 ! License: https://github.com/J3ekir/custom-filter-list/blob/main/LICENSE
 ! Homepage: https://github.com/J3ekir/custom-filter-list
 
+! 1337X
+! footer
+1337x.to##footer
+! user box
+1337x.to##.user-box
+! carousel banner
+1337x.to##.banner-box.movie
+! ads
+1337x.to##.box-info:has(>.box-info-detail):has-text( ads )
+! minify logo
+1337x.to##header .logo:style(margin:10px 0 0 !important)
+! minify search box
+1337x.to##header .search-box:style(margin:17px 3px 0 0 !important)
+! nav
+1337x.to##nav
+! top bar
+1337x.to##.top-bar
+! foreign movie torrents
+1337x.to##.featured-list:has(a[href="/popular-foreign-movies-week"])
+! popular other torrents
+1337x.to##.featured-list:has(a[href="/popular-other-week"])
+
 ! DIZIBOX
 ! vote box
 dizibox.*##.vote-box
