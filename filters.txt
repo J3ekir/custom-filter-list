@@ -24,6 +24,27 @@ dizibox.*###main-wrapper:style(margin:0!important;width:unset!important)
 ! xenforo codemirror editor history height
 *##.block-body.block-row.block-body--contained:has(>pre:not(:has(*))):style(max-height:none!important)
 
+! SBBROWSER
+! all table cells
+sb.ltn.fi##.table>:not(caption)>*>*:style(padding-block:.25rem!important)
+! uuid textarea
+sb.ltn.fi##td>textarea:style(height:0)
+! submittion date column
+sb.ltn.fi##:is(th,td):nth-child(1):style(width:100px)
+! video id
+sb.ltn.fi##thead:has([href*="sort=videoid"]) :is(th,td):nth-child(2):style(width:180px)
+! navbar background color
+sb.ltn.fi##.bg-light:style(background:transparent!important)
+! navbar
+sb.ltn.fi##.navbar:style(padding:0!important)
+sb.ltn.fi##.navbar>div:style(padding:0!important)
+! useless navbar buttons
+sb.ltn.fi##.navbar>div>:not(.navbar-brand)
+! navbar main page button
+sb.ltn.fi##.navbar-brand:style(padding:0!important;font-size:1rem!important;margin:0!important)
+! navbar logo
+sb.ltn.fi##.navbar-brand>:first-child
+
 ! SPONSORBLOCK
 ! ui transparency
 youtube.com##.sponsorSkipNoticeTableContainer,.sponsorBlockRectangleTooltip:style(background-color:rgba(28,28,28,0.7)!important)
