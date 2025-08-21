@@ -37,6 +37,40 @@ youtube.com###sponsorSkipNoticeMiddleRowSubmissionNotice>td>:not(:last-child):st
 youtube.com###sponsorSkipNoticeMiddleRowSubmissionNotice>td>div:style(margin:0!important;padding-block:5px!important)
 youtube.com###sponsorSkipNoticeMiddleRowSubmissionNotice:style(margin-right:10px!important)
 
+! SPONSORBLOCKCONTROL
+! header
+mruy.github.io##header
+! vip stuff
+mruy.github.io##[title="Requires VIP status"]
+! nav buttons
+mruy.github.io##nav:style(margin-bottom:5px!important)
+! request status
+mruy.github.io##.status:style(margin-bottom:5px!important)
+! checkbox, select, etc.
+mruy.github.io##html:style(color-scheme:dark!important)
+! service on browse page
+mruy.github.io##.filters>div:has(#service)
+! include on browse page
+mruy.github.io##.filters>div:has(.filters)
+! alignment of search tools on browse page
+mruy.github.io##.filters>div br
+! search button on browse page 
+mruy.github.io##.filters>div button:style(height:100%)
+! start/end on browse page
+mruy.github.io##table:has([title="Sort by startTime"]) td a:style(display:flex;gap:10px)
+! table cells on browse page
+mruy.github.io##td:style(padding:0 0.75rem!important)
+! column names on browse page
+mruy.github.io##tr th:style(width:200px!important)
+! category on browse page
+mruy.github.io##span.category:style(margin-top:2px)
+! segment count on browse page
+mruy.github.io##h2:style(margin:0)
+! uuid, submitter uuid on browse page
+mruy.github.io##td:has(button[title="Copy to clipboard"])>span:style(-webkit-line-clamp:1!important)
+! unnecessary line breaks on browse page
+mruy.github.io##td br
+
 ! TECHNOPAT
 ||gravatar.com$image,domain=www.technopat.net
 ! report overlay
