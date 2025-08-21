@@ -119,6 +119,23 @@ techolay.net##.message-signature:has([data-xf-click="toggle-class"][data-class="
 ! style variations
 techolay.net##.p-navgroup.cxf-styleVariations
 
+! TORRENTLEECH
+! scroll to top button
+torrentleech.org##.scrollTop:style(right:40px!important)
+! leecher color
+torrentleech.org##:is(.leechers,.leechers-text):style(color:#ddd!important)
+! info text (ads)
+torrentleech.org##.text-center.info.message
+! vip
+torrentleech.org##.vip
+! vpn ad
+torrentleech.org##span.topMenuAds.div-menu-item.centerTopBar:nth-of-type(1)
+! seedbox ad
+torrentleech.org##span.topMenuAds.div-menu-item.centerTopBar:nth-of-type(2)
+! info bar
+torrentleech.org##.col-md-9.centerTopBar:style(width:auto!important)
+torrentleech.org##.col-md-3.centerTopBar:style(width:auto!important;float:right!important;margin:5px!important)
+
 ! TWITCH
 ! ads
 twitch.tv##+js(twitch-videoad)
