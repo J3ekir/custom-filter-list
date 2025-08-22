@@ -72,6 +72,12 @@ formula1.com##header>:last-child>:first-child>:first-child>:first-child>:last-ch
 ! set status
 github.com##ul[class^="prc-ActionList-ActionList"]:has([data-component="ActionList.Divider"]:nth-child(2))>:nth-child(-n+2)
 
+! JSFIDDLE
+! sidebar
+jsfiddle.net###sidebar
+! better ui
+jsfiddle.net###layout-container:style(display:block!important)
+
 ! MOZILLA
 ! To use these add-ons, you'll need to download Firefox.
 addons.mozilla.org##.Notice.Notice-warning.GetFirefoxBanner
