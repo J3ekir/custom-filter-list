@@ -26,6 +26,12 @@
 ! popular other torrents
 1337x.to##.featured-list:has(a[href="/popular-other-week"])
 
+! BASE64
+! header
+base64.guru##header
+! title, comments, rationg, description 
+base64.guru##main>article>:is(h1,div,p)
+
 ! DIZIBOX
 ! vote box
 dizibox.*##.vote-box
