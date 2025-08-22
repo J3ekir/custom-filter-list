@@ -38,6 +38,22 @@ dizibox.*###main-wrapper:style(margin:0!important;width:unset!important)
 ||cdn.jsdelivr.net/npm/devtools-detector$script
 ||dbx.molystream.org/assets/s.js$script
 
+! FORMULA1
+! header
+formula1.com##header>:not(:last-child)
+! footer
+formula1.com##footer
+! survey
+formula1.com##main>.f1rd-page>:last-child
+! f1 unlocked
+formula1.com##main>.f1rd-page>:nth-last-child(3)
+! ad leftover on results page
+formula1.com##main>div>.f1rd-page>:first-child:style(padding:0!important)
+! unnecessary empty space on race & session select
+formula1.com##main>div>.f1rd-page>:nth-child(2):style(padding:8px!important)
+! nav height
+formula1.com##header>:last-child>:first-child>:first-child>:first-child>:last-child:style(min-height:32px!important)
+
 ! GENERIC
 ! xenforo codemirror editor height
 *##.codeEditor.CodeMirror:matches-path(admin.php):style(height:max-content!important)
