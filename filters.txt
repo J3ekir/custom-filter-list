@@ -86,6 +86,15 @@ addons.mozilla.org##.Notice.Notice-warning.GetFirefoxBanner
 ! function name color
 onlinegdb.com##.ace-idle-fingers .ace_support.ace_function:style(color:rgb(0,183,235)!important)
 
+! ONLINEGIFTOOLS
+! announcement, description, etc.
+onlinegiftools.com##div.container.pt-3
+! navbar
+onlinegiftools.com##div.container.navbar
+! premium
+onlinegiftools.com##div[data-title="New Pricing"]
+onlinegiftools.com##div#discount-header
+
 ! SBBROWSER
 ! all table cells
 sb.ltn.fi##.table>:not(caption)>*>*:style(padding-block:.25rem!important)
