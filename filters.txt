@@ -95,6 +95,16 @@ sb.ltn.fi##.navbar-brand:style(padding:0!important;font-size:1rem!important;marg
 ! navbar logo
 sb.ltn.fi##.navbar-brand>:first-child
 
+! SPEEDRUN
+! navbar logo
+speedrun.com##div.hidden.lg\:block
+! boost
+speedrun.com##.x-input-button.group.relative.rounded.border.border-transparent.text-white.ring-2
+! useless overlay
+speedrun.com##div:has(+footer)
+! footer
+speedrun.com##footer
+
 ! SPONSORBLOCK
 ! ui transparency
 youtube.com##.sponsorSkipNoticeTableContainer,.sponsorBlockRectangleTooltip:style(background-color:rgba(28,28,28,0.7)!important)
