@@ -82,6 +82,36 @@ jsfiddle.net###layout-container:style(display:block!important)
 ! To use these add-ons, you'll need to download Firefox.
 addons.mozilla.org##.Notice.Notice-warning.GetFirefoxBanner
 
+! ONEDRIVE
+! import from other cloud service
+onedrive.live.com##body>div:has(.ms-Callout-container)
+! upgrade plan
+onedrive.live.com##body>div:has([role="alertdialog"])
+! get more storage nav
+onedrive.live.com###appRoot [data-automation-id="idHeaderButtons"]
+! buy storage left nav
+onedrive.live.com##[data-automationid="main-left-nav"] [data-automationid="od-QuotaBar"]
+! start free trial
+onedrive.live.com##.od-QuotaBannerWrapper
+! navbar padding
+onedrive.live.com##div:has(>[class^="mainNav"]):style(padding:0!important)
+! navbar height
+onedrive.live.com##div:has(>div>div>[class^="mainNav"]),div:has(>[class^="mainNav"]):style(height:48px!important)
+onedrive.live.com##[data-automationid="main-left-nav"]:style(padding:0!important)
+onedrive.live.com##[data-automationid="appHeader"]:style(margin:0!important)
+! main & left nav
+onedrive.live.com###listTabPanel,[data-automationid="main-left-nav"]>:last-child:style(padding:0!important;margin:0!important)
+onedrive.live.com##[data-automationid="main-left-nav"]:style(width:175px!important)
+onedrive.live.com##[data-automationid="main-left-nav"]>:last-child:style(scrollbar-gutter:unset!important)
+! header height
+onedrive.live.com##[data-automationid="appHeader"]:style(height:36px!important;grid-template-rows:36px!important)
+onedrive.live.com##[data-automationid="commandGroup"]:style(height:unset!important)
+onedrive.live.com##div:has(>[data-automationid="commandGroup"]):style(margin:0!important)
+! action bar
+onedrive.live.com##[data-automationid="appCommandBar"]:style(margin:0!important;height:36px!important)
+onedrive.live.com##[data-automationid="appCommandBar"]>div:style(margin:0!important)
+onedrive.live.com##[data-automationid="commandbar"]:style(margin:0!important;padding-left:16px!important;height:36px!important)
+
 ! ONLINEGDB
 ! function name color
 onlinegdb.com##.ace-idle-fingers .ace_support.ace_function:style(color:rgb(0,183,235)!important)
