@@ -125,6 +125,38 @@ onlinegiftools.com##div.container.navbar
 onlinegiftools.com##div[data-title="New Pricing"]
 onlinegiftools.com##div#discount-header
 
+! OUTLOOK
+! calendar, people, word, excel, powerpoint
+outlook.live.com###LeftRail
+! home, view, help
+outlook.live.com###TopBar
+! folders scrollbar gutter
+outlook.live.com###folderPaneDroppableContainer:style(scrollbar-gutter:unset!important)
+! folders width
+outlook.live.com##[aria-label="Navigation pane"]:style(width:180px!important)
+! folder title left padding
+outlook.live.com##[aria-label="Navigation pane"] i.fui-Icon-font:style(--allFoldersPadding:0!important)
+! main folder expansion button
+outlook.live.com##[id][data-folder-name]>button
+! main folder title font size
+outlook.live.com##[id][data-folder-name]>span:style(font-size:15px!important)
+! emails scrollbar gutter
+outlook.live.com###MailList .customScrollBar:style(scrollbar-gutter:unset!important)
+! main section width
+outlook.live.com##[data-app-section="MessageList"]:style(width:100%!important)
+! ribbon options button
+outlook.live.com###BottomBar>:last-child
+! go to groups under main folder
+outlook.live.com##[aria-label="Navigation pane"] [role="group"] [role="none"]
+! main section top margin
+outlook.live.com##[data-app-section="MessageList"]:style(margin:0!important)
+! main section top margin on reading page
+outlook.live.com###ItemReadingPaneContainer>:first-child:style(margin:0!important)
+! main section top margin on reading page of another element
+outlook.live.com##[data-app-section="ItemContainer"]>div>:first-child>:first-child>:first-child:style(margin:0!important)
+! folders section top margin
+outlook.live.com##[data-app-section="NavigationPane"]>:first-child:style(margin:0!important)
+
 ! SBBROWSER
 ! all table cells
 sb.ltn.fi##.table>:not(caption)>*>*:style(padding-block:.25rem!important)
