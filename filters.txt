@@ -32,6 +32,26 @@ base64.guru##header
 ! title, comments, rationg, description 
 base64.guru##main>article>:is(h1,div,p)
 
+! CHATGPT
+! you've hit the free plan limit
+chatgpt.com##div:has(>:first-child>:first-child>:first-child>:first-child>:last-child>[data-testid="close-button"])
+! sidebar profile, settings etc.
+chatgpt.com##nav>:last-child
+! sidebar header height
+chatgpt.com##html:style(--header-height:40px!important)
+! sidebar new chat button
+chatgpt.com##aside:has(+aside+#history):style(top:var(--header-height)!important;padding:0!important)
+! chatgpt can make mistakes
+chatgpt.com###thread-bottom-container>:last-child
+! sora and other gpts
+chatgpt.com##aside:has(+#history)
+! sidebar search chats, library
+chatgpt.com##aside:has(+aside+#history)>:not(:first-child)
+! sidebar chats top padding
+chatgpt.com###history>:first-child:style(padding-top:0!important)
+! upgrade your plan
+chatgpt.com###page-header>:first-child>:first-child
+
 ! DIZIBOX
 ! vote box
 dizibox.*##.vote-box
