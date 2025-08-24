@@ -306,3 +306,35 @@ torrentleech.org##.col-md-3.centerTopBar:style(width:auto!important;float:right!
 twitch.tv##+js(twitch-videoad)
 ! prime badge
 twitch.tv##.prime-offers__pill
+
+! X|TWITTER
+! x logo
+x.com##div:has(>h1>[aria-label="X"])
+! nav explore
+x.com##nav>[aria-label="Search and explore"]
+! nav grok
+x.com##nav>[aria-label="Grok"]
+! nav communities
+x.com##nav>[aria-label="Communities"]
+! nav premium
+x.com##nav>[aria-label="Premium"]
+! verified orgs
+x.com##nav>[href="/i/verified-orgs-signup"]
+! nav more lists
+x.com##[data-testid="Dropdown"] div:has(>[href$="/lists"])
+! nav more monetization
+x.com##[data-testid="Dropdown"] div:has(>[href="/i/monetization"])
+! nav more verified orgs
+x.com##[data-testid="Dropdown"] div:has(>[href="/i/verified-orgs-signup"])
+! nav more ads
+x.com##[data-testid="Dropdown"] div:has(>[href^="https://ads.x.com"])
+! nav more jobs
+x.com##[data-testid="Dropdown"] div:has(>[href="/jobs"])
+! nav more creaet your space
+x.com##[data-testid="Dropdown"] div:has(>[href="/i/spaces/start"])
+! trending news
+x.com##[aria-label="Trending"] div:has(>[data-testid="news_sidebar"])
+! trending who to follow
+x.com##[aria-label="Trending"] div:has(>div>aside[aria-label="Who to follow"])
+! trending footer
+x.com##[aria-label="Trending"] div:has(>nav[aria-label="Footer"])
