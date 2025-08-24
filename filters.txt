@@ -51,6 +51,8 @@ chatgpt.com##aside:has(+aside+#history)>:not(:first-child)
 chatgpt.com###history>:first-child:style(padding-top:0!important)
 ! upgrade your plan
 chatgpt.com###page-header>:first-child>:first-child
+! main section padding
+chatgpt.com###page-header:style(padding:0!important)
 
 ! DIZIBOX
 ! vote box
