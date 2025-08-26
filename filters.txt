@@ -307,6 +307,25 @@ twitch.tv##+js(twitch-videoad)
 ! prime badge
 twitch.tv##.prime-offers__pill
 
+! WIKIPEDIA
+! page width
+wikipedia.org##.mw-page-container:style(padding-inline:12px!important)
+! From Wikipedia, the free encyclopedia
+wikipedia.org###bodyContent>.vector-body-before-content
+! search button border
+wikipedia.org###searchform>button:style(border:none!important;margin:0!important)
+wikipedia.org###searchform>#simpleSearch:style(margin:0!important)
+! logo
+wikipedia.org##.mw-logo
+! search box width
+wikipedia.org###p-search .vector-typeahead-search-container:style(max-width:unset!important)
+! gap between contents sidebar and main
+wikipedia.org##.mw-page-container-inner:style(column-gap:12px!important)
+! gap between main and tools sidebar
+wikipedia.org###content:style(column-gap:0!important)
+! tools sidebar
+wikipedia.org###content:style(grid-template-columns: 1fr 0!important)
+
 ! X|TWITTER
 ! x logo
 x.com##div:has(>h1>[aria-label="X"])
