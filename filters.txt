@@ -358,6 +358,42 @@ x.com##[aria-label="Trending"] div:has(>div>aside[aria-label="Who to follow"])
 ! trending footer
 x.com##[aria-label="Trending"] div:has(>nav[aria-label="Footer"])
 
+! YOUTUBE
+! search box microphone
+youtube.com##ytd-app>#content>#masthead-container>#masthead>#container>#center>#voice-search-button
+! left section width
+youtube.com##ytd-app:style(--ytd-persistent-guide-width:200px!important;--app-drawer-width:200px!important)
+youtube.com###guide ytd-guide-renderer.ytd-app:style(width:var(--app-drawer-width)!important)
+! left section subscriptions icon-text gap
+youtube.com###guide yt-img-shadow.ytd-guide-entry-renderer:style(margin-right:12px!important)
+! left section entries icon-text gap
+youtube.com###guide .guide-icon.ytd-guide-entry-renderer:style(margin-right:12px!important)
+! left section padding
+youtube.com###guide #sections>:first-child:style(padding:0 4px 4px 4px!important)
+! main section video margin
+youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:style(margin:0 4px 4px 4px!important)
+! main section shorts
+youtube.com###page-manager>[page-subtype="home"] ytd-rich-section-renderer
+! main section members only
+! youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(>#content #details .badge-style-type-members-only)
+! main section right gutter
+youtube.com###page-manager>[page-subtype="home"] ytd-rich-grid-renderer:style(--ytd-rich-grid-gutter-margin:0px!important)
+! main section chips
+youtube.com###page-manager>[page-subtype="home"] ytd-rich-grid-renderer>#header
+youtube.com##ytd-app>#content>#frosted-glass:style(height:56px!important)
+! main section top margin
+youtube.com###page-manager>[page-subtype="home"] #contents.ytd-rich-grid-renderer:style(padding:0!important)
+! video page recommended chips
+youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>yt-related-chip-cloud-renderer
+! video page recommended top margin
+youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>ytd-item-section-renderer>#contents>yt-lockup-view-model:first-of-type:style(margin-top:0!important)
+! video page recommended width
+youtube.com###page-manager>ytd-watch-flexy ytd-watch-flexy{--ytd-watch-flexy-sidebar-width:400px!important}
+! video page top padding
+youtube.com###page-manager>ytd-watch-flexy ytd-watch-flexy #columns>#primary:style(padding-top:0!important)
+! video page chat replay is disabled for this premiere
+youtube.com###page-manager>ytd-watch-flexy #chat-container:has(>#chat>iframe+ytd-message-renderer)
+
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
 ! (1/11) YouTube 4 Videos Per Row Fix (Home and Channel Pages) / YouTube Fix & Customization
