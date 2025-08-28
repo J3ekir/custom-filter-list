@@ -401,7 +401,7 @@ youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>yt-related
 youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>ytd-item-section-renderer>#contents>yt-lockup-view-model:first-of-type:style(margin-top:0!important)
 ! video page recommended width
 youtube.com###page-manager>ytd-watch-flexy:style(--ytd-watch-flexy-sidebar-width:400px!important)
-! video page shorts shelf
+! video page recommended shorts shelf
 youtube.com###page-manager>ytd-watch-flexy #secondary #related #contents>ytd-reel-shelf-renderer
 ! video page top padding
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary:style(padding-top:0!important)
