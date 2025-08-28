@@ -370,6 +370,8 @@ youtube.com###guide yt-img-shadow.ytd-guide-entry-renderer:style(margin-right:12
 youtube.com###guide .guide-icon.ytd-guide-entry-renderer:style(margin-right:12px!important)
 ! left section padding
 youtube.com###guide #sections>:first-child:style(padding:0 4px 4px 4px!important)
+! main section members only, auto dubbed, fundraiser etc.
+youtube.com###page-manager>[page-subtype="home"] :is(.yt-content-metadata-view-model-wiz__metadata-row--metadata-row-wrap:has(yt-badge-view-model),ytd-badge-supported-renderer:has(.badge-style-type-members-only))
 ! main section video margin
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:style(margin:0 4px 4px 4px!important)
 ! main section shorts
