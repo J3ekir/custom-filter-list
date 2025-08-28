@@ -422,6 +422,8 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description ytd-st
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description #merch-shelf
 ! video page video description product shelf
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description #product-shelf
+! video page vidoe description elements padding
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description :is(ytd-video-description-transcript-section-renderer,ytd-video-description-infocards-section-renderer):style(padding-block:8px!important)
 
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
