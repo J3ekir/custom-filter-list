@@ -409,6 +409,9 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary:style(padding-top:0
 youtube.com###page-manager>ytd-watch-flexy #chat-container:has(>#chat>iframe+ytd-message-renderer)
 ! video page event tickets
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #ticket-shelf
+! video page video endscreen
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary .ytp-ce-element
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary .ytp-endscreen-content
 
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
