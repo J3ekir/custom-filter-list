@@ -424,6 +424,8 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description #merch
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description #product-shelf
 ! video page video description shorts remixing this video
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description ytd-reel-shelf-renderer
+! video page video description playlist
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description ytd-video-description-infocards-section-renderer>#infocards-section
 ! video page video description elements padding
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description :is(ytd-video-description-transcript-section-renderer,ytd-video-description-infocards-section-renderer):style(padding-block:8px!important)
 ! video page video bottom live chat replay
