@@ -378,8 +378,10 @@ youtube.com###guide #sections>ytd-guide-section-renderer:nth-child(3)
 youtube.com###guide #sections>ytd-guide-section-renderer:nth-child(4)
 ! left section report history, help, send feedback
 ! youtube.com###guide #sections>ytd-guide-section-renderer:last-child>#items>:not(:first-child)
-! main section members only, auto dubbed, fundraiser etc.
-youtube.com###page-manager>[page-subtype="home"] :is(.yt-content-metadata-view-model-wiz__metadata-row--metadata-row-wrap:has(yt-badge-view-model),ytd-badge-supported-renderer:has(.badge-style-type-members-only))
+! main section members only
+youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(ytd-badge-supported-renderer .badge-style-type-members-only)
+! main section auto dubbed, fundraiser etc.
+youtube.com###page-manager>[page-subtype="home"] .yt-content-metadata-view-model-wiz__metadata-row--metadata-row-wrap:has(yt-badge-view-model)
 ! main section video margin
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:style(margin:0 4px 4px 4px!important)
 ! main section shorts
