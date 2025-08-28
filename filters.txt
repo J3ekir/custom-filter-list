@@ -416,6 +416,8 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary .ytp-ce-element
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary .ytp-endscreen-content
 ! video page video description people mentioned
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary yt-video-attributes-section-view-model:has(.videoAttributesSectionViewModelTitle:has-text(People mentioned))
+! video page video description extra content top margin
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary ytd-structured-description-content-renderer.ytd-watch-metadata:style(margin-top:0!important)
 
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
