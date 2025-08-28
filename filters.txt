@@ -424,9 +424,9 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description #merch
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description #product-shelf
 ! video page video description shorts remixing this video
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description ytd-reel-shelf-renderer
-! video page vidoe description elements padding
+! video page video description elements padding
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description :is(ytd-video-description-transcript-section-renderer,ytd-video-description-infocards-section-renderer):style(padding-block:8px!important)
-! video page vidoe bottom live chat replay
+! video page video bottom live chat replay
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #teaser-carousel
 
 ! YouTube Fix & Customization by Arch v1.8.5
