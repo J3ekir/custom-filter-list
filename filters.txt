@@ -413,6 +413,8 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary ytd-download-button
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary yt-button-view-model:has(button[aria-label="Clip"])
 ! video page thanks button
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary yt-button-view-model:has(button[aria-label="Thanks"])
+! video page join button
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary #sponsor-button
 ! video page chat replay is disabled for this premiere
 youtube.com###page-manager>ytd-watch-flexy #chat-container:has(>#chat>iframe+ytd-message-renderer)
 ! video page event tickets
