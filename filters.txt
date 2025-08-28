@@ -407,6 +407,8 @@ youtube.com###page-manager>ytd-watch-flexy #secondary #related #contents>ytd-ree
 youtube.com###page-manager>ytd-watch-flexy #secondary #related #contents>yt-lockup-view-model:has(yt-collection-thumbnail-view-model)
 ! video page top padding
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary:style(padding-top:0!important)
+! video page download button
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary ytd-download-button-renderer
 ! video page chat replay is disabled for this premiere
 youtube.com###page-manager>ytd-watch-flexy #chat-container:has(>#chat>iframe+ytd-message-renderer)
 ! video page event tickets
