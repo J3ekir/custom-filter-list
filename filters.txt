@@ -384,8 +384,6 @@ youtube.com###page-manager>[page-subtype="home"] :is(.yt-content-metadata-view-m
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:style(margin:0 4px 4px 4px!important)
 ! main section shorts
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-section-renderer
-! main section members only
-! youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(>#content #details .badge-style-type-members-only)
 ! main section right gutter
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-grid-renderer:style(--ytd-rich-grid-gutter-margin:0px!important)
 ! main section chips
