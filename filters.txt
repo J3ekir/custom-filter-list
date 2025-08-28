@@ -372,6 +372,8 @@ youtube.com###guide .guide-icon.ytd-guide-entry-renderer:style(margin-right:12px
 youtube.com###guide #sections>:first-child:style(padding:0 4px 4px 4px!important)
 ! left section footer
 youtube.com###guide #footer
+! left section explore (trending, music, live...)
+youtube.com###guide #sections>ytd-guide-section-renderer:nth-child(3)
 ! main section members only, auto dubbed, fundraiser etc.
 youtube.com###page-manager>[page-subtype="home"] :is(.yt-content-metadata-view-model-wiz__metadata-row--metadata-row-wrap:has(yt-badge-view-model),ytd-badge-supported-renderer:has(.badge-style-type-members-only))
 ! main section video margin
