@@ -400,11 +400,11 @@ youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>yt-related
 ! video page recommended top margin
 youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>ytd-item-section-renderer>#contents>yt-lockup-view-model:first-of-type:style(margin-top:0!important)
 ! video page recommended width
-youtube.com###page-manager>ytd-watch-flexy ytd-watch-flexy{--ytd-watch-flexy-sidebar-width:400px!important}
+youtube.com###page-manager>ytd-watch-flexy {--ytd-watch-flexy-sidebar-width:400px!important}
 ! video page recommended low views
 youtube.com###page-manager>ytd-watch-flexy #secondary #related #contents>:nth-child(4)
 ! video page top padding
-youtube.com###page-manager>ytd-watch-flexy ytd-watch-flexy #columns>#primary:style(padding-top:0!important)
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary:style(padding-top:0!important)
 ! video page chat replay is disabled for this premiere
 youtube.com###page-manager>ytd-watch-flexy #chat-container:has(>#chat>iframe+ytd-message-renderer)
 ! video page event tickets
