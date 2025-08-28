@@ -401,6 +401,8 @@ youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>ytd-item-s
 youtube.com###page-manager>ytd-watch-flexy:style(--ytd-watch-flexy-sidebar-width:400px!important)
 ! video page recommended low views
 youtube.com###page-manager>ytd-watch-flexy #secondary #related #contents>:nth-child(4)
+! video page shorts shelf
+youtube.com###page-manager>ytd-watch-flexy #secondary #related #contents>ytd-reel-shelf-renderer
 ! video page top padding
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary:style(padding-top:0!important)
 ! video page chat replay is disabled for this premiere
