@@ -440,6 +440,8 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description ytd-vi
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description :is(ytd-video-description-transcript-section-renderer,ytd-video-description-infocards-section-renderer):style(padding-block:8px!important)
 ! video page video bottom live chat replay
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #teaser-carousel
+! video page video bottom auto dubbed
+youtube.com###page-manager>ytd-watch-flexy #columns>#primary #title>ytd-badge-supported-renderer:has([aria-label="Auto-dubbed"])
 
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
