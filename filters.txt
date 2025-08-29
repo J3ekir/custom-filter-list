@@ -443,6 +443,8 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description :is(yt
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #teaser-carousel
 ! video page video bottom auto dubbed
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #title>ytd-badge-supported-renderer:has([aria-label="Auto-dubbed"])
+! search page popular in <place>, channels new to you, previously watched
+youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
 
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
