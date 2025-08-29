@@ -413,6 +413,7 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary:style(padding-top:0
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary ytd-download-button-renderer
 ! video page clip button
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary yt-button-view-model:has(button[aria-label="Clip"])
+youtube.com##ytd-popup-container #items tp-yt-paper-item:has(yt-formatted-string:has-text(Clip))
 ! video page thanks button
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary yt-button-view-model:has(button[aria-label="Thanks"])
 ! video page join button
