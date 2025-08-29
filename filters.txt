@@ -449,6 +449,8 @@ youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
 youtube.com##ytd-search grid-shelf-view-model
 ! search page mixes
 youtube.com##ytd-search ytd-item-section-renderer>#contents>yt-lockup-view-model
+! search page chips
+youtube.com##ytd-search #container>#header #chip-bar
 
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
