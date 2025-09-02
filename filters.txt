@@ -378,6 +378,8 @@ youtube.com###guide #sections>ytd-guide-section-renderer:nth-child(3)
 youtube.com###guide #sections>ytd-guide-section-renderer:nth-child(4)
 ! left section report history, help, send feedback
 ! youtube.com###guide #sections>ytd-guide-section-renderer:last-child>#items>:not(:first-child)
+! left section subscribtions padding
+youtube.com###guide #sections ytd-guide-section-renderer:nth-child(2):style(padding:0!important)
 ! main section members only
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(ytd-badge-supported-renderer .badge-style-type-members-only)
 ! main section auto dubbed, fundraiser etc.
