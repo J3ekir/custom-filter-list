@@ -390,6 +390,8 @@ youtube.com###guide #sections #items>ytd-guide-entry-renderer:has(>#endpoint[tit
 youtube.com###guide #sections #section-items>ytd-guide-entry-renderer:has(>#endpoint[title="Your videos"])
 ! left section your clips
 youtube.com###guide #sections #section-items>ytd-guide-entry-renderer:has(>#endpoint[title="Your clips"])
+! left section settings padding
+youtube.com###guide #sections>ytd-guide-section-renderer:last-child:style(padding:0!important)
 ! left section downloads
 youtube.com###guide #sections #section-items>ytd-guide-downloads-entry-renderer:has(>#downloads-entry)
 ! main section members only
