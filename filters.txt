@@ -386,6 +386,8 @@ youtube.com###guide #sections ytd-guide-section-renderer:first-child>#items>:las
 youtube.com###guide #sections ytd-guide-entry-renderer:has(>#endpoint[title="Shorts"])
 ! left section subscriptions
 youtube.com###guide #sections #items>ytd-guide-entry-renderer:has(>#endpoint[title="Subscriptions"])
+! left section your videos
+youtube.com###guide #sections #section-items>ytd-guide-entry-renderer:has(>#endpoint[title="Your videos"])
 ! main section members only
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(ytd-badge-supported-renderer .badge-style-type-members-only)
 ! main section auto dubbed, fundraiser etc.
