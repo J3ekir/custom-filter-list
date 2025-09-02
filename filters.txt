@@ -377,7 +377,7 @@ youtube.com###guide #sections>ytd-guide-section-renderer:nth-child(3)
 ! left section more from youtube (premium, studio, music, kids)
 youtube.com###guide #sections>ytd-guide-section-renderer:nth-child(4)
 ! left section report history, help, send feedback
-! youtube.com###guide #sections>ytd-guide-section-renderer:last-child>#items>:not(:first-child)
+youtube.com###guide #sections>ytd-guide-section-renderer:last-child>#items>:not(:first-child)
 ! left section subscribtions padding
 youtube.com###guide #sections ytd-guide-section-renderer:nth-child(2):style(padding:0!important)
 ! left section you top margin & padding
