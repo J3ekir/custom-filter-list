@@ -339,6 +339,8 @@ x.com##nav>[aria-label="Communities"]
 x.com##nav>[aria-label="Premium"]
 ! verified orgs
 x.com##nav>[href="/i/verified-orgs-signup"]
+! home icon unread badge
+x.com##nav [aria-label="undefined unread items"]
 ! nav more lists
 x.com##[data-testid="Dropdown"] div:has(>[href$="/lists"])
 ! nav more monetization
