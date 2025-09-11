@@ -214,6 +214,8 @@ sb.ltn.fi##.navbar-brand>:first-child
 sb.ltn.fi##.navbar-brand>:last-child:style(margin:0!important)
 ! main page search labels
 sb.ltn.fi##.form-label
+! copyright
+sb.ltn.fi##body>:first-child>:last-child>:last-child
 
 ! SPEEDRUN
 ! navbar logo
