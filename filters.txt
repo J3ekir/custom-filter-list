@@ -38,7 +38,7 @@ base64.guru##main>article>:is(h1,div,p)
 
 ! CHATGPT
 ! you've hit the free plan limit
-chatgpt.com##div:has(>:first-child>:first-child>:first-child>:first-child>:last-child>[data-testid="close-button"])
+chatgpt.com##div:has(>:first-child>:first-child>aside:first-child>:first-child>:last-child>[data-testid="close-button"])
 ! sidebar profile, settings etc.
 chatgpt.com##nav>:last-child
 ! sidebar header height
