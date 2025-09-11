@@ -223,6 +223,8 @@ sb.ltn.fi##div:has(>.form-control,>.form-select):style(margin:0!important;flex:1
 sb.ltn.fi##span:has(+.form-control)
 ! user page multiple select height
 sb.ltn.fi##.form-select[multiple]:style(height:75px!important)
+! user page clear/filter buttons
+sb.ltn.fi###filterForm>:last-child:style(margin-top:0!important)
 ! copyright
 sb.ltn.fi##body>:first-child>:last-child>:last-child
 
