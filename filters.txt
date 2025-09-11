@@ -542,3 +542,7 @@ youtube.com##:matches-path(/watch) ytd-video-owner-renderer.ytd-watch-metadata, 
 youtube.com##:matches-path(/watch) #owner.ytd-watch-metadata:style(justify-content: initial !important;)
 youtube.com##:matches-path(/watch) ytd-rich-item-renderer:style(margin-bottom: 8px !important;)
 youtube.com##:matches-path(/watch) #secondary.ytd-watch-flexy:style(padding: 0 !important;)
+
+! YOUTUBE music
+! cast button
+music.youtube.com##.cast-button
