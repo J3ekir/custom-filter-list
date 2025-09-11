@@ -221,6 +221,8 @@ sb.ltn.fi##form:has(>div>.form-control):style(display:flex!important;gap:12px!im
 sb.ltn.fi##div:has(>.form-control,>.form-select):style(margin:0!important;flex:1!important)
 ! user page range delimiter
 sb.ltn.fi##span:has(+.form-control)
+! user page multiple select height
+sb.ltn.fi##.form-select[multiple]:style(height:75px!important)
 ! copyright
 sb.ltn.fi##body>:first-child>:last-child>:last-child
 
