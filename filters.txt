@@ -210,6 +210,8 @@ sb.ltn.fi##.navbar>div>:not(.navbar-brand)
 sb.ltn.fi##.navbar-brand:style(padding:0!important;font-size:1rem!important;margin:0!important)
 ! navbar logo
 sb.ltn.fi##.navbar-brand>:first-child
+! navbar title margin
+sb.ltn.fi##.navbar-brand>:last-child:style(margin:0!important)
 
 ! SPEEDRUN
 ! navbar logo
