@@ -226,7 +226,7 @@ sb.ltn.fi##.form-control[type="number"]:style(width:50%!important)
 ! user page range start/end container
 sb.ltn.fi##div:has(>.form-control[type="number"]):style(display:flex!important;gap:12px!important)
 ! user page multiple select height
-sb.ltn.fi##.form-select[multiple]:style(height:75px!important)
+sb.ltn.fi##.form-select[multiple]:style(height:40px!important;font-size:12px!important)
 ! user page clear/filter buttons
 sb.ltn.fi###filterForm>:last-child:style(margin-top:0!important)
 ! copyright
