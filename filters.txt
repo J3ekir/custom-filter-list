@@ -236,6 +236,8 @@ sb.ltn.fi##.form-select[multiple]:style(height:40px!important;font-size:12px!imp
 sb.ltn.fi###filterForm>:last-child:style(margin-top:0!important)
 ! user page submission date width
 sb.ltn.fi##tr>:first-child:style(width:175px!important)
+! user page uuid width
+sb.ltn.fi##.form-control.uuid:style(display:inline-block!important)
 ! copyright
 sb.ltn.fi##body>:first-child>:last-child>:last-child
 
