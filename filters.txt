@@ -602,3 +602,6 @@ music.youtube.com###mini-guide
 music.youtube.com###side-panel:style(margin-inline:calc(var(--ytmusic-player-page-content-gap)/2);important)
 ! cards button
 music.youtube.com##.ytp-chrome-top-buttons
+! player size
+music.youtube.com###player-page:style(left:unset!important;width:100%!important)
+music.youtube.com###player-page>.ytmusic-player-page:style(padding:0!important)
