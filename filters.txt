@@ -110,6 +110,8 @@ addons.mozilla.org##.Notice.Notice-warning.GetFirefoxBanner
 ! navbar padding
 developer.mozilla.org##:root:style(--navigation-height:2.5rem!important)
 developer.mozilla.org##nav.navigation:style(padding-block:0!important)
+! footer
+developer.mozilla.org##.page-layout__footer
 
 ! ONEDRIVE
 ! import from other cloud service
