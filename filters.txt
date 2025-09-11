@@ -70,6 +70,8 @@ dizibox.*###main-wrapper:style(margin:0!important;width:unset!important)
 dizibox.*##header#site-header:style(padding-block:10px 0!important; height:unset!important)
 ! episode title padding
 dizibox.*##.content-wrapper:style(padding-block:0!important)
+! episode title margin
+dizibox.*##.content-wrapper>.title:style(margin:0!important)
 ! player playback speed
 dbx.molystream.org##.vjs-playback-rate
 ! devtools
