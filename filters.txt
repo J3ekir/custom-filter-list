@@ -216,6 +216,9 @@ sb.ltn.fi##.navbar-brand>:last-child:style(margin:0!important)
 sb.ltn.fi##.form-label
 ! main page search placeholder
 sb.ltn.fi##.form-control::placeholder:style(color:#999!important)
+! main page search go button
+sb.ltn.fi##form:has(>div>.form-control):style(display:flex!important;gap:12px!important)
+sb.ltn.fi##div:has(>.form-control,>.form-select):style(margin:0!important;flex:1!important)
 ! copyright
 sb.ltn.fi##body>:first-child>:last-child>:last-child
 
