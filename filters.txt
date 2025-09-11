@@ -66,6 +66,8 @@ dizibox.*###main-wrapper>.ff-2
 ! fullscreen
 dizibox.*##body:style(margin:0!important)
 dizibox.*###main-wrapper:style(margin:0!important;width:unset!important)
+! header padding/height
+dizibox.*##header#site-header:style(padding-block:10px 0!important; height:unset!important)
 ! episode title padding
 dizibox.*##.content-wrapper:style(padding-block:0!important)
 ! player playback speed
