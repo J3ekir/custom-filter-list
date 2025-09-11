@@ -546,3 +546,5 @@ youtube.com##:matches-path(/watch) #secondary.ytd-watch-flexy:style(padding: 0 !
 ! YOUTUBE music
 ! cast button
 music.youtube.com##.cast-button
+! player page side panel width
+music.youtube.com##ytmusic-player-page:style(--ytmusic-player-page-side-panel-width: 25% !important)
