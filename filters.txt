@@ -22,13 +22,13 @@
 ! top bar
 1337x.to##.top-bar
 ! foreign movie torrents
-1337x.to##.featured-list:has(a[href="/popular-foreign-movies-week"])
+1337x.to##.featured-list:has(>.featured-heading>a[href="/popular-foreign-movies-week"])
 ! popular music torrents
-1337x.to##.featured-list:has(a[href="/popular-music-week"])
+1337x.to##.featured-list:has(>.featured-heading>a[href="/popular-music-week"])
 ! popular application torrents
-1337x.to##.featured-list:has(a[href="/popular-apps-week"])
+1337x.to##.featured-list:has(>.featured-heading>a[href="/popular-apps-week"])
 ! popular other torrents
-1337x.to##.featured-list:has(a[href="/popular-other-week"])
+1337x.to##.featured-list:has(>.featured-heading>a[href="/popular-other-week"])
 
 ! BASE64
 ! header
