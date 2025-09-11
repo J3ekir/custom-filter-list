@@ -23,6 +23,8 @@
 1337x.to##.top-bar
 ! foreign movie torrents
 1337x.to##.featured-list:has(a[href="/popular-foreign-movies-week"])
+! popular music torrents
+1337x.to##.featured-list:has(a[href="/popular-music-week"])
 ! popular other torrents
 1337x.to##.featured-list:has(a[href="/popular-other-week"])
 
