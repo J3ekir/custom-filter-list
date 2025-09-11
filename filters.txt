@@ -107,6 +107,9 @@ jsfiddle.net###layout-container:style(display:block!important)
 ! MOZILLA
 ! To use these add-ons, you'll need to download Firefox.
 addons.mozilla.org##.Notice.Notice-warning.GetFirefoxBanner
+! navbar padding
+developer.mozilla.org##:root:style(--navigation-height:2.5rem!important)
+developer.mozilla.org##nav.navigation:style(padding-block:0!important)
 
 ! ONEDRIVE
 ! import from other cloud service
