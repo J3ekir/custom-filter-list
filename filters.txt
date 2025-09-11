@@ -212,6 +212,8 @@ sb.ltn.fi##.navbar-brand:style(padding:0!important;font-size:1rem!important;marg
 sb.ltn.fi##.navbar-brand>:first-child
 ! navbar title margin
 sb.ltn.fi##.navbar-brand>:last-child:style(margin:0!important)
+! main page search labels
+sb.ltn.fi##.form-label
 
 ! SPEEDRUN
 ! navbar logo
