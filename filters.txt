@@ -189,6 +189,8 @@ outlook.live.com###ItemReadingPaneContainer>:first-child:style(margin:0!importan
 outlook.live.com##[data-app-section="ItemContainer"]>div>:first-child>:first-child>:first-child:style(margin:0!important)
 ! folders section top margin
 outlook.live.com##[data-app-section="NavigationPane"]>:first-child:style(margin:0!important)
+! main section empty ad mail
+outlook.live.com##[data-app-section="MessageList"] #MailList [role="listbox"] .customScrollBar>:first-child>:first-child:has(>div>div:empty)
 
 ! SBBROWSER
 ! all table cells
