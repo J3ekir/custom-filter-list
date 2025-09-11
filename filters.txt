@@ -609,3 +609,5 @@ music.youtube.com###player-page>.ytmusic-player-page:style(padding:0!important)
 music.youtube.com##ytmusic-chip-cloud-renderer
 ! playing from <song>
 music.youtube.com##ytmusic-queue-header-renderer
+! navbar height
+music.youtube.com##html:style(--ytmusic-nav-bar-height:50px!important)
