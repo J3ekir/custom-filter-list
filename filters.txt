@@ -607,3 +607,5 @@ music.youtube.com###player-page:style(left:unset!important;width:100%!important)
 music.youtube.com###player-page>.ytmusic-player-page:style(padding:0!important)
 ! chips
 music.youtube.com##ytmusic-chip-cloud-renderer
+! playing from <song>
+music.youtube.com##ytmusic-queue-header-renderer
