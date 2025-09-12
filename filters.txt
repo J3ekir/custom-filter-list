@@ -600,6 +600,7 @@ music.youtube.com##ytmusic-player-page:style(--ytmusic-player-page-side-panel-wi
 ! left section
 music.youtube.com###guide
 music.youtube.com###mini-guide
+music.youtube.com###mini-guide-background
 ! right section
 music.youtube.com###side-panel:style(margin-inline:calc(var(--ytmusic-player-page-content-gap)/2);important)
 ! cards button
