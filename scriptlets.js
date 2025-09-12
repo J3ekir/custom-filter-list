@@ -13,19 +13,25 @@
 			}
 		}).observe(document, { childList: true, subtree: true });
 	});
+	const map = {
+		Beğendim: "Beğen",
+		Beğenmedim: "Beğenme",
+	};
 	function f() {
-		qsa(".reaction-text.js-reactionText").forEach(elem => {
-			if (elem.textContent.trim() === "Beğendim") {
-				elem.textContent = elem.previousElementSibling.title = elem.previousElementSibling.title = "Beğen";
-			}
-		});
-		qsa(".reaction-sprite.js-reaction[alt='Beğendim']").forEach(elem => {
-			elem.alt = elem.title = elem.ariaLabel = elem.dataset.originalTitle = "Beğen";
-		});
-		qsa(".tooltip-content").forEach(elem => {
-			if (elem.textContent.trim() === "Beğendim") {
-				elem.textContent = "Beğen";
-			}
+		Object.entries(map).forEach(([k, v]) => {
+			qsa(".reaction-text.js-reactionText").forEach(elem => {
+				if (elem.textContent.trim() === k) {
+					elem.textContent = elem.previousElementSibling.title = elem.previousElementSibling.title = v;
+				}
+			});
+			qsa(`.reaction-sprite.js-reaction[alt='${ k }']`).forEach(elem => {
+				elem.alt = elem.title = elem.ariaLabel = elem.dataset.originalTitle = v;
+			});
+			qsa(".tooltip-content").forEach(elem => {
+				if (elem.textContent.trim() === k) {
+					elem.textContent = v;
+				}
+			});
 		});
 	}
 	waitForElement(".blockMessage--none").then(elem => {

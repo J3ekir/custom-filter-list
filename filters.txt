@@ -320,7 +320,7 @@ www.technopat.net##.message-signature:has([data-xf-click="toggle-class"][data-cl
 www.technopat.net##.p-header-content:style(margin-block:-10px;padding:0!important)
 
 ! TECHOLAY
-! beğendim
+! beğendim|beğenmedim
 techolay.net##+js(Vavien.techolay.reaction)
 ! solution effects
 techolay.net##.message--solution,.message--solution:hover:style(z-index:none!important;position:none!important;box-shadow:none!important;transform:none!important)
