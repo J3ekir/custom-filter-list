@@ -566,17 +566,6 @@ youtube.com##[title="channelName"]:upward(ytd-compact-video-renderer)
 ! Blocks multiple channels with a single filter
 youtube.com##[page-subtype="home"] :is(a[href="/@channelURL"], a[href="/@channelURL"]):upward(ytd-rich-item-renderer)
 youtube.com##ytd-search :is(a[href="/@channelURL"], a[href="/@channelURL"]):upward(ytd-video-renderer)
-! (10/11) YouTube Live Theater Mode Chat Fix (Removes the sidebar chat from the video player, restores Full Width Theater Mode, and disables chat or reverts its location. Choose one option.) / YouTube Fix & Customization by Arch
-youtube.com##+js(ra, live-chat-present-and-expanded|panel-expanded|fixed-panels|watch-while-panels-active, ytd-watch-flexy, stay)
-youtube.com##+js(set-attr, ytd-watch-flexy, is-two-columns_)
-! Disables Chat
-youtube.com###chat-container
-||youtube.com/live_chat
-! Keeps Chat and reverts its location
-youtube.com###columns.ytd-watch-flexy:style(display: grid !important; grid-template-columns: 1fr auto !important;)
-youtube.com###primary.ytd-watch-flexy, #chat-container.ytd-watch-flexy:style(grid-row: 1 !important;)
-youtube.com###secondary.ytd-watch-flexy:style(grid-column: 2 !important;)
-youtube.com###chat-container.ytd-watch-flexy:style(margin-top: var(--ytd-margin-6x) !important; width: var(--ytd-watch-flexy-sidebar-width) !important;)
 ! (11/11) YouTube Title, Description, Comments and Related Videos Swap Fix (Restore the title, description, and comments section to the left, and related videos to the right of the page.) / YouTube Fix & Customization by Arch 
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 youtube.com##:matches-path(/watch) ytd-rich-item-renderer[is-link-card-full-width]:style(width: auto !important;)
