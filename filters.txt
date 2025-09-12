@@ -201,6 +201,10 @@ outlook.live.com##[data-app-section="ItemContainer"]>div>:first-child>:first-chi
 outlook.live.com##[data-app-section="NavigationPane"]>:first-child:style(margin:0!important)
 ! main section empty ad mail
 outlook.live.com##[data-app-section="MessageList"] #MailList [role="listbox"] .customScrollBar>:first-child>:first-child:has(>div>div:empty)
+! main section empty ad mail
+outlook.live.com##[data-app-section="MessageList"] #MailList [role="listbox"] .customScrollBar>:first-child>:first-child:has(>div>div:empty)
+! main section empty ad mail spinner
+outlook.live.com##[data-app-section="MessageList"] #MailList [role="listbox"] .customScrollBar>:first-child>:nth-last-child(2)>:first-child>:last-child.ms-Spinner
 
 ! SBBROWSER
 ! all table cells
