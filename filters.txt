@@ -557,15 +557,6 @@ youtube.com##tp-yt-app-drawer:remove-attr(/opened|persistent/)
 ! (8/11) YouTube Channel Page Videos, Shorts, Live, Podcasts and Playlists Tabs Full Width Video Content (Makes video thumbs to fill the page) / YouTube Fix & Customization
 youtube.com##:matches-path(//videos|/shorts|/streams|/podcasts|/playlists/) ytd-two-column-browse-results-renderer.grid-5-columns, ytd-two-column-browse-results-renderer.grid-6-columns:style(width: 100% !important;)
 youtube.com##ytd-two-column-browse-results-renderer.grid, ytd-rich-grid-renderer[is-shorts-grid] #contents.ytd-rich-grid-renderer:style(max-width: initial !important;)
-! (9/11) YouTube Channel Block (You can block/hide any videos from a specific channel or multiple channels with these filters on the home page. Replace "/@channelURL" with the channel URL and ChannelName with the channel name that you want to block/hide) / YouTube Fix & Customization
-youtube.com##[page-subtype="home"] a[href="/@channelURL"]:upward(ytd-rich-item-renderer)
-youtube.com##ytd-search a[href="/@channelURL"]:upward(ytd-video-renderer)
-youtube.com##.ytp-suggestion-set[aria-label*="ChannelName"]
-youtube.com##yt-formatted-string:has-text(channelName):upward(ytd-compact-video-renderer)
-youtube.com##[title="channelName"]:upward(ytd-compact-video-renderer)
-! Blocks multiple channels with a single filter
-youtube.com##[page-subtype="home"] :is(a[href="/@channelURL"], a[href="/@channelURL"]):upward(ytd-rich-item-renderer)
-youtube.com##ytd-search :is(a[href="/@channelURL"], a[href="/@channelURL"]):upward(ytd-video-renderer)
 ! (11/11) YouTube Title, Description, Comments and Related Videos Swap Fix (Restore the title, description, and comments section to the left, and related videos to the right of the page.) / YouTube Fix & Customization by Arch 
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
 youtube.com##:matches-path(/watch) ytd-rich-item-renderer[is-link-card-full-width]:style(width: auto !important;)
