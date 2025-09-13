@@ -108,6 +108,10 @@ formula1.com##header>:last-child>:first-child>:first-child>:first-child>:last-ch
 ! set status
 github.com##ul[class^="prc-ActionList-ActionList"]:has([data-component="ActionList.Divider"]:nth-child(2))>:nth-child(-n+2)
 
+! INSTAGRAM
+! footer
+instagram.com##footer
+
 ! JSFIDDLE
 ! sidebar
 jsfiddle.net###sidebar
