@@ -461,6 +461,8 @@ youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(ytd-
 youtube.com###page-manager>[page-subtype="home"] .yt-content-metadata-view-model__metadata-row--metadata-row-wrap:has(yt-badge-view-model)
 ! main section video margin
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:style(margin:0 4px 4px 4px!important)
+! main section justification
+youtube.com##ytd-app[guide-persistent-and-visible] ytd-page-manager.ytd-app:style(margin-left:calc(var(--ytd-persistent-guide-width) + 8px)!important)
 ! main section shorts
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-section-renderer
 ! main section right gutter
