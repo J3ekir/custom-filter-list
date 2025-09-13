@@ -421,7 +421,7 @@ x.com##[aria-label="Trending"] div:has(>nav[aria-label="Footer"])
 ! search box microphone
 youtube.com##ytd-app>#content>#masthead-container>#masthead>#container>#center>#voice-search-button
 ! left section width
-youtube.com##ytd-app:style(--ytd-persistent-guide-width:200px!important;--app-drawer-width:200px!important)
+youtube.com##ytd-app:style(--ytd-persistent-guide-width:180px!important;--app-drawer-width:180px!important)
 youtube.com###guide ytd-guide-renderer.ytd-app:style(width:var(--app-drawer-width)!important)
 ! left section subscriptions icon-text gap
 youtube.com###guide yt-img-shadow.ytd-guide-entry-renderer:style(margin-right:12px!important)
