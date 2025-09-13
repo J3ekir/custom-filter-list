@@ -458,7 +458,7 @@ youtube.com###guide #sections #section-items>ytd-guide-downloads-entry-renderer:
 ! main section members only
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(ytd-badge-supported-renderer .badge-style-type-members-only)
 ! main section auto dubbed, fundraiser etc.
-youtube.com###page-manager>[page-subtype="home"] .yt-content-metadata-view-model-wiz__metadata-row--metadata-row-wrap:has(yt-badge-view-model)
+youtube.com###page-manager>[page-subtype="home"] .yt-content-metadata-view-model__metadata-row--metadata-row-wrap:has(yt-badge-view-model)
 ! main section video margin
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:style(margin:0 4px 4px 4px!important)
 ! main section shorts
