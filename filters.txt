@@ -555,17 +555,6 @@ youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
 ! (8/11) YouTube Channel Page Videos, Shorts, Live, Podcasts and Playlists Tabs Full Width Video Content (Makes video thumbs to fill the page) / YouTube Fix & Customization
 youtube.com##:matches-path(//videos|/shorts|/streams|/podcasts|/playlists/) ytd-two-column-browse-results-renderer.grid-5-columns, ytd-two-column-browse-results-renderer.grid-6-columns:style(width: 100% !important;)
 youtube.com##ytd-two-column-browse-results-renderer.grid, ytd-rich-grid-renderer[is-shorts-grid] #contents.ytd-rich-grid-renderer:style(max-width: initial !important;)
-! (11/11) YouTube Title, Description, Comments and Related Videos Swap Fix (Restore the title, description, and comments section to the left, and related videos to the right of the page.) / YouTube Fix & Customization by Arch 
-youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
-youtube.com##:matches-path(/watch) ytd-rich-item-renderer[is-link-card-full-width]:style(width: auto !important;)
-youtube.com##:matches-path(/watch) #thumbnail.ytd-rich-grid-media:style(width: 168px !important; margin-right: 8px !important;)
-youtube.com##:matches-path(/watch) #dismissible.ytd-rich-grid-media:style(display: grid !important; grid-template-columns: 1fr auto !important;)
-youtube.com##:matches-path(/watch) #details > #avatar-link.ytd-rich-grid-media:style(display: none !important;)
-youtube.com##:matches-path(/watch) #meta > h3.ytd-rich-grid-media:style(margin: initial !important;)
-youtube.com##:matches-path(/watch) ytd-video-owner-renderer.ytd-watch-metadata, #bottom-actions.ytd-watch-metadata:style(width: initial !important;)
-youtube.com##:matches-path(/watch) #owner.ytd-watch-metadata:style(justify-content: initial !important;)
-youtube.com##:matches-path(/watch) ytd-rich-item-renderer:style(margin-bottom: 8px !important;)
-youtube.com##:matches-path(/watch) #secondary.ytd-watch-flexy:style(padding: 0 !important;)
 
 ! YOUTUBE music
 ! cast button
