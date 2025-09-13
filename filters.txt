@@ -526,6 +526,8 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary #title>ytd-badge-su
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary .ytp-right-controls>.ytp-miniplayer-button
 ! grid video container margin
 youtube.com##ytd-rich-item-renderer:style(--ytd-rich-grid-item-margin:8px!important)
+! channel page banner
+youtube.com###page-manager>[page-subtype="channels"] #page-header-banner
 ! search page popular in <place>, channels new to you, previously watched
 youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
 ! search page shorts
