@@ -551,8 +551,6 @@ youtube.com###metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !import
 youtube.com##ytd-video-renderer[use-bigger-thumbs][bigger-thumbs-style="BIG"] ytd-thumbnail.ytd-video-renderer, ytd-video-renderer[use-bigger-thumbs] ytd-thumbnail.ytd-video-renderer, ytd-radio-renderer[use-bigger-thumbs] ytd-thumbnail.ytd-radio-renderer, #avatar-section.ytd-channel-renderer, ytd-radio-renderer[use-bigger-thumbs][bigger-thumbs-style="BIG"] ytd-playlist-thumbnail.ytd-radio-renderer, ytd-playlist-renderer[use-bigger-thumbs][bigger-thumbs-style="BIG"] ytd-playlist-thumbnail.ytd-playlist-renderer:style(max-width: 360px !important;)
 ! (6/11) YouTube Horizontal Scrollbar Fix / YouTube Fix & Customization
 youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
-! (7/11) YouTube Customizations (Closes menu to have more space for videos) Notice: This rule prevents the menu from opening even when you click on it for now. If you often use the menu, exclude this rule. / YouTube Fix & Customization
-youtube.com##tp-yt-app-drawer:remove-attr(/opened|persistent/)
 ! Only use these 2 rules below if you set items-per-row and posts-per-row to 5 or 6 from the first filter set, "(1/11) 4 Videos Per Row Fix"
 ! (8/11) YouTube Channel Page Videos, Shorts, Live, Podcasts and Playlists Tabs Full Width Video Content (Makes video thumbs to fill the page) / YouTube Fix & Customization
 youtube.com##:matches-path(//videos|/shorts|/streams|/podcasts|/playlists/) ytd-two-column-browse-results-renderer.grid-5-columns, ytd-two-column-browse-results-renderer.grid-6-columns:style(width: 100% !important;)
