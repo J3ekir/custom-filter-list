@@ -524,6 +524,8 @@ youtube.com###page-manager>ytd-watch-flexy #columns>#primary #teaser-carousel
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary #title>ytd-badge-supported-renderer:has([aria-label="Auto-dubbed"])
 ! video page player mini player button
 youtube.com###page-manager>ytd-watch-flexy #columns>#primary .ytp-right-controls>.ytp-miniplayer-button
+! grid video container margin
+youtube.com##ytd-rich-item-renderer:style(--ytd-rich-grid-item-margin:8px!important)
 ! search page popular in <place>, channels new to you, previously watched
 youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
 ! search page shorts
