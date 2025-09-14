@@ -254,6 +254,8 @@ sb.ltn.fi###filterForm>:last-child:style(margin-top:0!important)
 sb.ltn.fi##tr>:first-child:style(width:175px!important)
 ! user page uuid width
 sb.ltn.fi##.form-control.uuid:style(display:inline-block!important)
+! user page uuid height
+sb.ltn.fi##.form-control.uuid:style(min-height:24px!important)
 ! copyright
 sb.ltn.fi##body>:first-child>:last-child>:last-child
 
