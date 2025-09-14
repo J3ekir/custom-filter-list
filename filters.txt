@@ -499,43 +499,43 @@ youtube.com###page-manager>ytd-watch-flexy #secondary #related #contents>yt-lock
 ! video page recommended auto dubbed, fundraiser etc.
 youtube.com###page-manager>ytd-watch-flexy #secondary #related .yt-content-metadata-view-model__metadata-row--metadata-row-wrap
 ! video page top padding
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary:style(padding-top:0!important)
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary:style(padding-top:0!important)
 ! video page download button
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary ytd-download-button-renderer
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary ytd-download-button-renderer
 ! video page clip button
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary yt-button-view-model:has(button[aria-label="Clip"])
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary yt-button-view-model:has(button[aria-label="Clip"])
 youtube.com##ytd-popup-container #items tp-yt-paper-item:has(yt-formatted-string:has-text(Clip))
 ! video page thanks button
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary yt-button-view-model:has(button[aria-label="Thanks"])
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary yt-button-view-model:has(button[aria-label="Thanks"])
 ! video page join button
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #sponsor-button
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #sponsor-button
 ! video page chat replay is disabled for this premiere
 youtube.com###page-manager>ytd-watch-flexy #chat-container:has(>#chat>iframe+ytd-message-renderer)
 ! video page event tickets
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #ticket-shelf
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #ticket-shelf
 ! video page video endscreen
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary .ytp-ce-element
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary .ytp-ce-element
 youtube.com###page-manager>ytd-watch-flexy #full-bleed-container .ytp-endscreen-content
 ! video page video description people mentioned
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description yt-video-attributes-section-view-model:has(.videoAttributesSectionViewModelTitle:has-text(People mentioned))
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #description yt-video-attributes-section-view-model:has(.videoAttributesSectionViewModelTitle:has-text(People mentioned))
 ! video page video description extra content top margin
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description ytd-structured-description-content-renderer.ytd-watch-metadata:style(margin-top:0!important)
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #description ytd-structured-description-content-renderer.ytd-watch-metadata:style(margin-top:0!important)
 ! video page video description merch shelf
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description #merch-shelf
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #description #merch-shelf
 ! video page video description product shelf
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description #product-shelf
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #description #product-shelf
 ! video page video description shorts remixing this video
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description ytd-reel-shelf-renderer
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #description ytd-reel-shelf-renderer
 ! video page video description playlist
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description ytd-video-description-infocards-section-renderer>#infocards-section
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #description ytd-video-description-infocards-section-renderer>#infocards-section
 ! video page video description elements padding
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #description :is(ytd-video-description-transcript-section-renderer,ytd-video-description-infocards-section-renderer):style(padding-block:8px!important)
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #description :is(ytd-video-description-transcript-section-renderer,ytd-video-description-infocards-section-renderer):style(padding-block:8px!important)
 ! video page video bottom live chat replay
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #teaser-carousel
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #teaser-carousel
 ! video page video bottom auto dubbed
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary #title>ytd-badge-supported-renderer:has([aria-label="Auto-dubbed"])
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #title>ytd-badge-supported-renderer:has([aria-label="Auto-dubbed"])
 ! video page player mini player button
-youtube.com###page-manager>ytd-watch-flexy #columns>#primary .ytp-right-controls>.ytp-miniplayer-button
+youtube.com###page-manager>ytd-watch-flexy>#columns>#primary .ytp-right-controls>.ytp-miniplayer-button
 ! grid video container margin
 youtube.com##ytd-rich-item-renderer:style(--ytd-rich-grid-item-margin:8px!important)
 ! channel page banner
