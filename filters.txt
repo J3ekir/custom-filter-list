@@ -256,6 +256,8 @@ sb.ltn.fi##tr>:first-child:style(width:175px!important)
 sb.ltn.fi##.form-control.uuid:style(display:inline-block!important)
 ! user page uuid height
 sb.ltn.fi##.form-control.uuid:style(min-height:24px!important)
+! user page uuid padding
+sb.ltn.fi##.form-control.uuid:style(padding-block:0!important)
 ! copyright
 sb.ltn.fi##body>:first-child>:last-child>:last-child
 
