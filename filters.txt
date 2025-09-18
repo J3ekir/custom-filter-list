@@ -57,6 +57,8 @@ chatgpt.com##nav>#history>:first-child:style(padding-top:0!important)
 chatgpt.com###page-header>:first-child>:first-child
 ! main section padding
 chatgpt.com###page-header:style(padding:0!important)
+! sidebar chats title
+chatgpt.com##nav>#history>aside>:first-child
 
 ! DIZIBOX
 ! vote box
