@@ -618,3 +618,5 @@ youtube.com##.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment:style(b
 youtube.com##.ytp-play-progress:style(background:var(--j3ekir-blue)!important)
 ! player progress bar thumb
 youtube.com##.ytp-swatch-background-color:style(background-color:var(--j3ekir-blue)!important)
+! player hd quality badge
+youtube.com##.ytp-settings-button.ytp-hd-quality-badge::after:style(background-color:var(--j3ekir-blue)!important)
