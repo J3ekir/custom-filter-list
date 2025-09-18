@@ -606,3 +606,5 @@ music.youtube.com##html:style(--ytmusic-nav-bar-height:50px!important)
 ! YOUTUBEBLUE
 ! j3ekir blue
 youtube.com##html:style(--j3ekir-blue:#28E!important)
+! youtube logo
+youtube.com###logo-icon g:first-child>:first-child:style(fill:var(--j3ekir-blue)!important)
