@@ -47,8 +47,8 @@ chatgpt.com##html:style(--header-height:40px!important)
 chatgpt.com##aside:has(+aside+#history):style(top:var(--header-height)!important;padding:0!important)
 ! chatgpt can make mistakes
 chatgpt.com###thread-bottom-container>:last-child
-! sora and other gpts
-chatgpt.com##aside:has(+#history)
+! sora and other gpts & new projects
+chatgpt.com##aside+aside:has(~#history)
 ! sidebar search chats, library
 chatgpt.com##aside:has(+aside+#history)>:not(:first-child)
 ! sidebar chats top padding
