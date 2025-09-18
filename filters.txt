@@ -626,3 +626,5 @@ youtube.com##.ytp-menuitem[aria-checked=true] .ytp-menuitem-toggle-checkbox:styl
 youtube.com##.ytp-volume-slider-handle::before:style(background:var(--j3ekir-blue)!important)
 ! player volume slider inactive
 youtube.com##.ytp-volume-slider-handle::after:style(margin-left:6px!important)
+! player volume slider thumb
+youtube.com##.ytp-volume-slider-handle:style(background:var(--j3ekir-blue)!important)
