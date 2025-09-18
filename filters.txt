@@ -616,6 +616,8 @@ music.youtube.com##ytmusic-chip-cloud-renderer
 music.youtube.com##ytmusic-queue-header-renderer
 ! navbar height
 music.youtube.com##html:style(--ytmusic-nav-bar-height:50px!important)
+! share id
+music.youtube.com##+js(trusted-rpfr, /(https:\/\/music\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11})&si=[^"]+/, $1, https://music.youtube.com/youtubei/v1/share/get_share_panel)
 
 ! YOUTUBEBLUE
 ! j3ekir blue
