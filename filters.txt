@@ -602,3 +602,7 @@ music.youtube.com##ytmusic-chip-cloud-renderer
 music.youtube.com##ytmusic-queue-header-renderer
 ! navbar height
 music.youtube.com##html:style(--ytmusic-nav-bar-height:50px!important)
+
+! YOUTUBEBLUE
+! j3ekir blue
+youtube.com##html:style(--j3ekir-blue:#28E!important)
