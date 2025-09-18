@@ -610,3 +610,5 @@ youtube.com##html:style(--j3ekir-blue:#28E!important)
 youtube.com###logo-icon g:first-child>:first-child:style(fill:var(--j3ekir-blue)!important)
 ! navigation progress bar
 youtube.com##.yt-page-navigation-progress:style(background:var(--j3ekir-blue)!important)
+! thumbnail progress bar (playlist)
+youtube.com##.ytd-thumbnail-overlay-resume-playback-renderer:style(background:var(--j3ekir-blue)!important)
