@@ -630,3 +630,5 @@ youtube.com##.ytp-volume-slider-handle::after:style(margin-left:6px!important)
 youtube.com##.ytp-volume-slider-handle:style(background:var(--j3ekir-blue)!important)
 ! hover player progress bar
 youtube.com##.ytProgressBarLineProgressBarPlayed:style(background:var(--j3ekir-blue)!important)
+! hover player thumb
+youtube.com##.ytProgressBarPlayheadProgressBarPlayheadDot:style(background-color:var(--j3ekir-blue)!important)
