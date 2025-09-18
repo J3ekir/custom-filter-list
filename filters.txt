@@ -44,7 +44,7 @@ chatgpt.com##nav>:last-child
 ! sidebar header height
 chatgpt.com##html:style(--header-height:40px!important)
 ! sidebar new chat button
-chatgpt.com##aside:has(+aside+#history):style(top:var(--header-height)!important;padding:0!important)
+chatgpt.com##nav>aside:first-of-type:style(top:var(--header-height)!important;padding:0!important)
 ! chatgpt can make mistakes
 chatgpt.com###thread-bottom-container>:last-child
 ! sora and other gpts & new projects
