@@ -546,6 +546,8 @@ youtube.com##ytd-rich-item-renderer:style(--ytd-rich-grid-item-margin:8px!import
 youtube.com###page-manager>[page-subtype="channels"] #page-header-banner
 ! channel page shorts margin
 youtube.com###page-manager>[page-subtype="channels"] ytd-rich-item-renderer[is-shorts-grid][is-slim-media][rendered-from-rich-grid]:style(margin:1px!important)
+! channel page video bottom margin
+youtube.com###page-manager>[page-subtype="channels"] ytd-rich-item-renderer[is-slim-grid][rendered-from-rich-grid]:style(margin-bottom:4px!important)
 ! search page popular in <place>, channels new to you, previously watched
 youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
 ! search page shorts
