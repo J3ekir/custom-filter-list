@@ -562,6 +562,8 @@ youtube.com##ytd-search #container>#header>ytd-search-header-renderer:style(heig
 youtube.com##.ytLockupAttachmentsViewModelHost:has(yt-slimline-survey-view-model)
 ! video endscreen
 youtube.com##.ytp-endscreen-content
+! share id
+youtube.com##+js(trusted-rpfr, /(https:\/\/youtu\.be\/[A-Za-z0-9_-]{11})\?si=[^"]+/, $1, https://www.youtube.com/youtubei/v1/share/get_share_panel)
 
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
