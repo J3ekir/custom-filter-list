@@ -50,7 +50,7 @@ chatgpt.com###thread-bottom-container>:last-child
 ! sora and other gpts & new projects
 chatgpt.com##nav>aside+aside:has(~#history)
 ! sidebar search chats, library
-chatgpt.com##nav>aside:has(+aside+#history)>:not(:first-child)
+chatgpt.com##nav>aside:first-of-type>:not(:first-child)
 ! sidebar chats top padding
 chatgpt.com##nav>#history>:first-child:style(padding-top:0!important)
 ! upgrade your plan
