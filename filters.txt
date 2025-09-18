@@ -568,6 +568,13 @@ youtube.com##.ytLockupAttachmentsViewModelHost:has(yt-slimline-survey-view-model
 youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 6 !important;)
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 6 !important;)
+! (2/11) YouTube Home Short Section 7 Videos Per Row Fix / YouTube Fix & Customization
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-slim-items-per-row: 7 !important;)
+youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-grid-items-per-row: 7 !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-game-cards-per-row: 7 !important;)
+youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-shelf-items-count: 7 !important;)
+youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
+youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
 ! (3/11) YouTube Home and Channel Page Margin Fix / YouTube Fix & Customization
 youtube.com##ytd-rich-item-renderer[rendered-from-rich-grid][is-in-first-column]:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important;)
 youtube.com##ytd-rich-item-renderer[is-slim-grid]:first-of-type, ytd-rich-item-renderer[is-shorts-grid]:first-of-type:style(margin-left: auto !important;)
