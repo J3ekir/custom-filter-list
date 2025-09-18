@@ -622,3 +622,5 @@ youtube.com##.ytp-swatch-background-color:style(background-color:var(--j3ekir-bl
 youtube.com##.ytp-settings-button.ytp-hd-quality-badge::after:style(background-color:var(--j3ekir-blue)!important)
 ! player settings checkbox
 youtube.com##.ytp-menuitem[aria-checked=true] .ytp-menuitem-toggle-checkbox:style(background:var(--j3ekir-blue)!important)
+! player volume slider
+youtube.com##.ytp-volume-slider-handle::before:style(background:var(--j3ekir-blue)!important)
