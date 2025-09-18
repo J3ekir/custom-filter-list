@@ -48,11 +48,11 @@ chatgpt.com##nav>aside:first-of-type:style(top:var(--header-height)!important;pa
 ! chatgpt can make mistakes
 chatgpt.com###thread-bottom-container>:last-child
 ! sora and other gpts & new projects
-chatgpt.com##aside+aside:has(~#history)
+chatgpt.com##nav>aside+aside:has(~#history)
 ! sidebar search chats, library
-chatgpt.com##aside:has(+aside+#history)>:not(:first-child)
+chatgpt.com##nav>aside:has(+aside+#history)>:not(:first-child)
 ! sidebar chats top padding
-chatgpt.com###history>:first-child:style(padding-top:0!important)
+chatgpt.com##nav>#history>:first-child:style(padding-top:0!important)
 ! upgrade your plan
 chatgpt.com###page-header>:first-child>:first-child
 ! main section padding
