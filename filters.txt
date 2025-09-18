@@ -519,9 +519,6 @@ youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #sponsor-button
 youtube.com###page-manager>ytd-watch-flexy #chat-container:has(>#chat>iframe+ytd-message-renderer)
 ! video page event tickets
 youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #ticket-shelf
-! video page video endscreen
-youtube.com###page-manager>ytd-watch-flexy>#columns>#primary .ytp-ce-element
-youtube.com###page-manager>ytd-watch-flexy #full-bleed-container .ytp-endscreen-content
 ! video page video description people mentioned
 youtube.com###page-manager>ytd-watch-flexy>#columns>#primary #description yt-video-attributes-section-view-model:has(.videoAttributesSectionViewModelTitle:has-text(People mentioned))
 ! video page video description extra content top margin
@@ -563,6 +560,8 @@ youtube.com##ytd-search #container>#header:style(width:100%!important;position:f
 youtube.com##ytd-search #container>#header>ytd-search-header-renderer:style(height:unset!important)
 ! how is this recommendation?
 youtube.com##.ytLockupAttachmentsViewModelHost:has(yt-slimline-survey-view-model)
+! video endscreen
+youtube.com##.ytp-endscreen-content
 
 ! YouTube Fix & Customization by Arch v1.8.5
 ! https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
