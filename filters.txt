@@ -580,7 +580,7 @@ youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
 youtube.com##:matches-path(//videos|/shorts|/streams|/podcasts|/playlists/) ytd-two-column-browse-results-renderer.grid-5-columns, ytd-two-column-browse-results-renderer.grid-6-columns:style(width: 100% !important;)
 youtube.com##ytd-two-column-browse-results-renderer.grid, ytd-rich-grid-renderer[is-shorts-grid] #contents.ytd-rich-grid-renderer:style(max-width: initial !important;)
 
-! YOUTUBE music
+! YOUTUBEMUSIC
 ! cast button
 music.youtube.com##.cast-button
 ! player page side panel width
