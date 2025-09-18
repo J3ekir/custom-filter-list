@@ -562,7 +562,8 @@ youtube.com##ytd-search #container>#header>ytd-search-header-renderer:style(heig
 youtube.com##.ytLockupAttachmentsViewModelHost:has(yt-slimline-survey-view-model)
 ! video endscreen
 youtube.com##.ytp-endscreen-content
-! share id
+! TRUSTED share id
+! https://github.com/gorhill/uBlock/blob/87dddb7d78f6ee32a4383c32d296f07898c618e9/src/js/storage.js#L425
 youtube.com##+js(trusted-rpfr, /(https:\/\/youtu\.be\/[A-Za-z0-9_-]{11})\?si=[^"]+/, $1, https://www.youtube.com/youtubei/v1/share/get_share_panel)
 
 ! YouTube Fix & Customization by Arch v1.8.5
@@ -616,7 +617,8 @@ music.youtube.com##ytmusic-chip-cloud-renderer
 music.youtube.com##ytmusic-queue-header-renderer
 ! navbar height
 music.youtube.com##html:style(--ytmusic-nav-bar-height:50px!important)
-! share id
+! TRUSTED share id
+! https://github.com/gorhill/uBlock/blob/87dddb7d78f6ee32a4383c32d296f07898c618e9/src/js/storage.js#L425
 music.youtube.com##+js(trusted-rpfr, /(https:\/\/music\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11})&si=[^"]+/, $1, https://music.youtube.com/youtubei/v1/share/get_share_panel)
 
 ! YOUTUBEBLUE
