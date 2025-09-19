@@ -4,6 +4,11 @@
 ! License: https://github.com/J3ekir/custom-filter-list/blob/main/LICENSE
 ! Homepage: https://github.com/J3ekir/custom-filter-list
 
+! *
+! video speed controller disable scroll
+! https://github.com/igrigorik/videospeed/blob/50096d617a99eb378fab5ede3f722ae11a9f7918/src/ui/controls.js#L98
+*##+js(aeld, wheel, /event\.deltaMode === event\.DOM_DELTA_PIXEL/, elements, #controller)
+
 ! 1337X
 ! footer
 1337x.to##footer
