@@ -16,7 +16,7 @@
 		Beğendim: "Beğen",
 		Beğenmedim: "Beğenme",
 	};
-	function f() {
+	function updateReactions() {
 		Object.entries(map).forEach(([k, v]) => {
 			qsa(".reaction-text.js-reactionText").forEach(elem => {
 				if (elem.textContent.trim() === k) {
@@ -34,7 +34,7 @@
 		});
 	}
 	waitForElement(".blockMessage--none").then(elem => {
-		f();
-		new MutationObserver(() => f()).observe(document, { childList: true, subtree: true });
+		updateReactions();
+		new MutationObserver(() => updateReactions()).observe(document, { childList: true, subtree: true });
 	});
 })();
