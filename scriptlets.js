@@ -20,7 +20,7 @@
 		Object.entries(map).forEach(([k, v]) => {
 			qsa(".reaction-text.js-reactionText").forEach(elem => {
 				if (elem.textContent.trim() === k) {
-					elem.textContent = elem.previousElementSibling.title = elem.previousElementSibling.title = v;
+					elem.textContent = elem.previousElementSibling.title = v;
 				}
 			});
 			qsa(`.reaction-sprite.js-reaction[alt='${ k }']`).forEach(elem => {
