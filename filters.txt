@@ -665,3 +665,5 @@ youtube.com###progress-slices-container>.ytcp-video-player-timeline:style(backgr
 youtube.com###playhead:style(background-color:var(--j3ekir-blue)!important)
 ! youtube studio player volume slider
 youtube.com###primaryProgress:style(background:var(--j3ekir-blue)!important)
+! youtube studio player volume slider thumb
+youtube.com###sliderKnob>.slider-knob-inner:style(background-color:var(--j3ekir-blue)!important;border:var(--j3ekir-blue)!important)
