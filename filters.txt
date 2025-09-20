@@ -335,6 +335,8 @@ www.technopat.net##.p-footer-row-opposite
 www.technopat.net##.message-signature:has([data-xf-click="toggle-class"][data-class="bbCodeInlineSpoiler"])
 ! logo padding/margin
 www.technopat.net##.p-header-content:style(margin-block:-10px;padding:0!important)
+! user group banner box shadow
+www.technopat.net##.userBanner:style(box-shadow:none!important)
 
 ! TECHOLAY
 ! beğendim|beğenmedim
