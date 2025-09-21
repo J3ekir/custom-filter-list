@@ -38,3 +38,34 @@
 		new MutationObserver(() => updateReactions()).observe(document, { childList: true, subtree: true });
 	});
 })();
+
+/// Vavien.youtube.start-at.js
+(() => {
+	self.qs = (a, b) => typeof a === "string" ? document.querySelector(a) : a.querySelector?.(b);
+	self.qsa = (a, b) => typeof a === "string" ? document.querySelectorAll(a) : a.querySelectorAll?.(b);
+	self.waitForElement = selector => new Promise(resolve => {
+		let elem;
+		if (elem = qs(selector)) { return resolve(elem); }
+		new MutationObserver((_, observer) => {
+			if (elem = qs(selector)) {
+				observer.disconnect();
+				resolve(elem);
+			}
+		}).observe(document, { childList: true, subtree: true });
+	});
+	function formatTimestamp() {
+		const url = new URL(qs("#share-url").value);
+		const t = Number(url.searchParams.get("t"));
+		if (t) {
+			const h = Math.floor(t / 3600);
+			const m = Math.floor((t % 3600) / 60);
+			const s = t % 60;
+			url.searchParams.set("t", `${ h ? h + "h" : "" }${ m ? m + "m" : "" }${ s ? s + "s" : "" }`);
+			qs("#share-url").value = url.toString();
+		}
+	}
+	waitForElement("#start-at-timestamp").then(elem => {
+		elem.addEventListener("change", formatTimestamp);
+		qs("#start-at-checkbox").addEventListener("click", formatTimestamp);
+	});
+})();
