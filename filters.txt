@@ -333,8 +333,8 @@ www.technopat.net##.overlay-container.is-active > .overlay[data-url$="/report"]:
 www.technopat.net##.p-footer-row-opposite
 ! signature inline spoiler
 www.technopat.net##.message-signature:has([data-xf-click="toggle-class"][data-class="bbCodeInlineSpoiler"])
-! logo padding/margin
-www.technopat.net##.p-header-content:style(margin-block:-10px;padding:0!important)
+! logo padding
+www.technopat.net##.p-header-content:style(padding:0!important)
 ! user group banner box shadow
 www.technopat.net##.userBanner:style(box-shadow:none!important)
 
