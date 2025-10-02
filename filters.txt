@@ -48,7 +48,7 @@ chatgpt.com##nav>:last-child
 chatgpt.com##html:style(--header-height:40px!important)
 ! sidebar new chat button
 chatgpt.com##nav>aside:first-of-type:style(top:var(--header-height)!important;padding:0!important)
-! sora and other gpts & new projects
+! sidebar sora and other gpts & new projects
 chatgpt.com##nav>aside+aside:has(~#history)
 ! sidebar search chats, library
 chatgpt.com##nav>aside:first-of-type>:not(:first-child)
