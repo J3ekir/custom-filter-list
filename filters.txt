@@ -42,20 +42,20 @@ base64.guru##header
 base64.guru##main>article>:is(h1,div,p)
 
 ! CHATGPT
+! sidebar new chat button
+chatgpt.com##nav>aside:first-of-type:style(top:var(--header-height)!important;padding:0!important)
+! sidebar search chats, library
+chatgpt.com##nav>aside:first-of-type>:not(:first-child)
+! sidebar sora and other gpts & new projects
+chatgpt.com##nav>aside+aside:has(~#history)
+! sidebar chats title
+chatgpt.com##nav>#history>aside>:first-child
 ! sidebar profile, settings etc.
 chatgpt.com##nav>:last-child
 ! sidebar header height
 chatgpt.com##html:style(--header-height:40px!important)
-! sidebar new chat button
-chatgpt.com##nav>aside:first-of-type:style(top:var(--header-height)!important;padding:0!important)
-! sidebar sora and other gpts & new projects
-chatgpt.com##nav>aside+aside:has(~#history)
-! sidebar search chats, library
-chatgpt.com##nav>aside:first-of-type>:not(:first-child)
 ! sidebar chats top padding
 chatgpt.com##nav>#history>:first-child:style(padding-top:0!important)
-! sidebar chats title
-chatgpt.com##nav>#history>aside>:first-child
 ! main section padding
 chatgpt.com###page-header:style(padding:0!important)
 ! chatgpt can make mistakes
