@@ -42,8 +42,6 @@ base64.guru##header
 base64.guru##main>article>:is(h1,div,p)
 
 ! CHATGPT
-! sidebar new chat button
-chatgpt.com##nav>aside:first-of-type:style(top:var(--header-height)!important;padding:0!important)
 ! sidebar search chats, library
 chatgpt.com##nav>aside:first-of-type>:not(:first-child)
 ! sidebar sora and other gpts & new projects
@@ -52,6 +50,8 @@ chatgpt.com##nav>aside+aside:has(~#history)
 chatgpt.com##nav>#history>aside>:first-child
 ! sidebar profile, settings etc.
 chatgpt.com##nav>:last-child
+! sidebar new chat button padding
+chatgpt.com##nav>aside:first-of-type:style(top:var(--header-height)!important;padding:0!important)
 ! sidebar header height
 chatgpt.com##html:style(--header-height:40px!important)
 ! sidebar chats top padding
