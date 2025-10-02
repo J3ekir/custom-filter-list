@@ -47,7 +47,7 @@ chatgpt.com##nav>:nth-child(2)>:not(:first-child)
 ! sidebar projects
 chatgpt.com##nav>:nth-child(3)
 ! sidebar sora and other gpts & new projects
-chatgpt.com##nav>aside+aside:has(~#history)
+chatgpt.com##nav>:nth-child(4)
 ! sidebar chats title
 chatgpt.com##nav>#history>aside>:first-child
 ! sidebar profile, settings etc.
