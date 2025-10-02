@@ -44,6 +44,8 @@ base64.guru##main>article>:is(h1,div,p)
 ! CHATGPT
 ! sidebar search chats, library
 chatgpt.com##nav>:nth-child(2)>:not(:first-child)
+! sidebar projects
+chatgpt.com##nav>:nth-child(3)
 ! sidebar sora and other gpts & new projects
 chatgpt.com##nav>aside+aside:has(~#history)
 ! sidebar chats title
