@@ -115,7 +115,7 @@ formula1.com##header>:last-child>:first-child>:first-child>:first-child>:last-ch
 
 ! GITHUB
 ! set status
-github.com##ul[class^="prc-ActionList-ActionList"]:has([data-component="ActionList.Divider"]:nth-child(2))>:nth-child(-n+2)
+github.com###global-user-nav-drawer-header+div ul[class^="prc-ActionList-ActionList"]:has([data-component="ActionList.Divider"]:nth-child(2))>:nth-child(-n+2)
 
 ! INSTAGRAM
 ! footer
