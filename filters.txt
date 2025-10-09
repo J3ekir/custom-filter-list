@@ -346,6 +346,8 @@ www.technopat.net##.message-signature:has([data-xf-click="toggle-class"][data-cl
 www.technopat.net##.p-header-content:style(padding:0!important)
 ! user group banner box shadow
 www.technopat.net##.userBanner:style(box-shadow:none!important)
+! nav icons
+www.technopat.net##.p-navEl-link::before
 
 ! TECHOLAY
 ! beğendim|beğenmedim
