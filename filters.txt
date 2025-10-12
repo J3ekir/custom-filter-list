@@ -518,9 +518,9 @@ youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>ytd-item-s
 ! video page recommended width
 youtube.com###page-manager>ytd-watch-flexy:style(--ytd-watch-flexy-sidebar-width:400px!important)
 ! video page recommended shorts shelf
-youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>ytd-reel-shelf-renderer
+youtube.com###page-manager>ytd-watch-flexy #secondary #related :is(#items,#contents)>ytd-reel-shelf-renderer
 ! video page recommended mixes
-youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>yt-lockup-view-model:has(yt-collection-thumbnail-view-model)
+youtube.com###page-manager>ytd-watch-flexy #secondary #related :is(#items,#contents)>yt-lockup-view-model:has(yt-collection-thumbnail-view-model)
 ! video page recommended members only
 youtube.com###page-manager>ytd-watch-flexy #secondary #related yt-lockup-view-model:has(.yt-badge-shape--commerce)
 ! video page recommended auto dubbed, fundraiser etc.
