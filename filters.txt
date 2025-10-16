@@ -189,6 +189,8 @@ onlinegiftools.com##div[data-title="New Pricing"]
 onlinegiftools.com##div#discount-header
 
 ! OUTLOOK
+! ribbonroot padding
+outlook.live.com###RibbonRoot:style(padding:0!important)
 ! calendar, people, word, excel, powerpoint
 outlook.live.com###LeftRail
 ! home, view, help
