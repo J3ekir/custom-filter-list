@@ -493,7 +493,7 @@ youtube.com###page-manager>[page-subtype="home"] .yt-content-metadata-view-model
 ! main section video margin
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:style(margin:0 4px 4px 4px!important)
 ! main section hover effect
-youtube.com##.yt-spec-touch-feedback-shape__hover-effect
+youtube.com###page-manager>[page-subtype="home"] .yt-spec-touch-feedback-shape__hover-effect
 ! main section justification
 youtube.com##ytd-app[guide-persistent-and-visible] ytd-page-manager.ytd-app:style(margin-left:calc(var(--ytd-persistent-guide-width) + 8px)!important)
 ! main section shorts
