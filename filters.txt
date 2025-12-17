@@ -45,11 +45,11 @@ base64.guru##main>article>:is(h1,div,p)
 ! sidebar main page, collapse
 chatgpt.com##nav>:first-child
 ! sidebar search chats, library
-chatgpt.com##nav>:nth-child(2)>:not(:first-child)
+chatgpt.com##nav>:nth-child(3)>:not(:first-child)
 ! sidebar projects
-chatgpt.com##nav>:nth-child(3)
-! sidebar sora and other gpts & new projects
 chatgpt.com##nav>:nth-child(4)
+! sidebar sora and other gpts & new projects
+chatgpt.com##nav>:nth-child(5)
 ! sidebar chats title
 chatgpt.com##nav>div>*:has(+#history)
 ! sidebar profile, settings etc.
