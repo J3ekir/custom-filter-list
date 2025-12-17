@@ -51,7 +51,7 @@ chatgpt.com##nav>:nth-child(3)
 ! sidebar sora and other gpts & new projects
 chatgpt.com##nav>:nth-child(4)
 ! sidebar chats title
-chatgpt.com##nav>div>div:has(+#history)
+chatgpt.com##nav>div>*:has(+#history)
 ! sidebar profile, settings etc.
 chatgpt.com##nav>:last-child
 ! sidebar new chat button padding
