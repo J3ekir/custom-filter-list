@@ -348,6 +348,8 @@ www.technopat.net##.p-header-content:style(padding:0!important)
 www.technopat.net##.userBanner:style(box-shadow:none!important)
 ! nav icons
 www.technopat.net##.p-navEl-link::before
+! nav empty section links
+www.technopat.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
 
 ! TECHOLAY
 ! beğendim|beğenmedim
@@ -369,6 +371,8 @@ techolay.net##.p-footer-row-opposite
 techolay.net##.message-signature:has([data-xf-click="toggle-class"][data-class="bbCodeInlineSpoiler"])
 ! style variations
 techolay.net##.p-navgroup.cxf-styleVariations
+! nav empty section links
+techolay.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
 
 ! TORRENTLEECH
 ! scroll to top button
