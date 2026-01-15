@@ -224,6 +224,10 @@ outlook.live.com##[data-app-section="MessageList"] #MailList [role="listbox"] .c
 ! main section empty ad mail spinner
 outlook.live.com##[data-app-section="MessageList"] #MailList [role="listbox"] .customScrollBar>:first-child>:nth-last-child(2)>:first-child>:last-child.ms-Spinner
 
+! REDDIT
+! subreddit carousel
+reddit.com##community-highlight-carousel
+
 ! SBBROWSER
 ! all table cells
 sb.ltn.fi##.table>:not(caption)>*>*:style(padding-block:.25rem!important)
