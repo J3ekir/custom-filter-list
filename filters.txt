@@ -412,6 +412,8 @@ torrentleech.org##.col-md-3.centerTopBar:style(width:auto!important;float:right!
 twitch.tv##+js(twitch-videoad)
 ! prime badge
 twitch.tv##.prime-offers__pill
+! channel info
+twitch.tv##.channel-info-content
 
 ! WIKIPEDIA
 ! page width
