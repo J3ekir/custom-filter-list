@@ -607,7 +607,7 @@ youtube.com##ytd-search #container>#header>ytd-search-header-renderer:style(heig
 ! how is this recommendation?
 youtube.com##.ytLockupAttachmentsViewModelHost:has(yt-slimline-survey-view-model)
 ! video endscreen
-youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-endscreen-content,.ytp-ce-element,.ytp-ce-shadow
 ! share timestamp
 youtube.com##+js(Vavien.youtube.start-at)
 ! redirect shorts
