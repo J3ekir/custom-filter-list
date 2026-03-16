@@ -132,6 +132,8 @@ github.com###global-user-nav-drawer-header+div ul[class^="prc-ActionList-ActionL
 ! INSTAGRAM
 ! footer
 instagram.com##footer
+! image overlay
+instagram.com##._aagw
 
 ! JSFIDDLE
 ! sidebar
