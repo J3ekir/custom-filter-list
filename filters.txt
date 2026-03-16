@@ -74,6 +74,11 @@ chatgpt.com###page-header>:first-child>:first-child
 ! you've hit the free plan limit
 chatgpt.com##div:has(>:first-child>:first-child>aside:first-child>:first-child>:last-child>[data-testid="close-button"])
 
+! DAILYMOTION
+! iframe
+||dailymotion.com/embed/$frame
+||dai.ly/embed/$frame
+
 ! DIZIBOX
 ! vote box
 dizibox.*##.vote-box
