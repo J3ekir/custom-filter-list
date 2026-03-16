@@ -476,6 +476,10 @@ x.com##[aria-label="Trending"] div:has(>div>aside[aria-label="Who to follow"])
 ! trending footer
 x.com##[aria-label="Trending"] div:has(>nav[aria-label="Footer"])
 
+! VSCO
+! image overlay
+vsco.co##img:style(pointer-events:unset!important)
+
 ! YOUTUBE
 ! search box microphone
 youtube.com##ytd-app>#content>#masthead-container>#masthead>#container>#center>#voice-search-button
