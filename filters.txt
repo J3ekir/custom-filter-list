@@ -97,6 +97,8 @@ dizibox.*##.content-wrapper>.title:style(margin:0!important)
 dizibox.*##.box-header-bottom
 ! player playback speed
 dbx.molystream.org##.vjs-playback-rate
+! episode card height
+dizibox.*##.article-episode-card:style(max-height:unset!important)
 ! devtools
 ||cdn.jsdelivr.net/npm/devtools-detector$script
 ||dbx.molystream.org/assets/s.js$script
