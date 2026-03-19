@@ -425,6 +425,10 @@ twitch.tv##.prime-offers__pill
 ! channel info
 twitch.tv##.channel-info-content
 
+! VSCO
+! image overlay
+vsco.co##img:style(pointer-events:unset!important)
+
 ! WIKIPEDIA
 ! page width
 wikipedia.org##.mw-page-container:style(padding-inline:12px!important)
@@ -477,10 +481,6 @@ x.com##[aria-label="Trending"] div:has(>[data-testid="news_sidebar"])
 x.com##[aria-label="Trending"] div:has(>div>aside[aria-label="Who to follow"])
 ! trending footer
 x.com##[aria-label="Trending"] div:has(>nav[aria-label="Footer"])
-
-! VSCO
-! image overlay
-vsco.co##img:style(pointer-events:unset!important)
 
 ! YOUTUBE
 ! search box microphone
