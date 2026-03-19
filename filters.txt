@@ -447,6 +447,8 @@ wikipedia.org##.mw-page-container-inner:style(column-gap:12px!important)
 wikipedia.org###content:style(column-gap:0!important)
 ! tools sidebar
 wikipedia.org###content:style(grid-template-columns: 1fr 0!important)
+! 
+wikipedia.org##[title="Kurdî"]
 
 ! X|TWITTER
 ! x logo
