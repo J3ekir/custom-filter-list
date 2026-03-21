@@ -491,7 +491,7 @@ youtube.com##ytd-app>#content>#masthead-container>#masthead>#container>#center>#
 youtube.com##ytd-app:style(--ytd-persistent-guide-width:180px!important;--app-drawer-width:180px!important)
 youtube.com###guide ytd-guide-renderer.ytd-app:style(width:var(--app-drawer-width)!important)
 ! left section subscriptions icon-text gap
-youtube.com###guide yt-img-shadow.ytd-guide-entry-renderer:style(margin-right:12px!important)
+youtube.com###guide yt-img-shadow.ytd-guide-entry-rerer:style(margin-right:12px!important)
 ! left section entries icon-text gap
 youtube.com###guide .guide-icon.ytd-guide-entry-renderer:style(margin-right:12px!important)
 ! left section padding
@@ -622,7 +622,8 @@ youtube.com##ytd-search #container>#header>ytd-search-header-renderer:style(heig
 ! how is this recommendation?
 youtube.com##.ytLockupAttachmentsViewModelHost:has(yt-slimline-survey-view-model)
 ! video endscreen
-youtube.com##.ytp-endscreen-content,.ytp-ce-element,.ytp-ce-shadow,.ytp-fullscreen-grid-main-content
+youtube.com##.ytp-endscreen-content,.ytp-ce-element,.ytp-ce-shadow,.ytp-fullscreen-grid-main-content,.ytp-iv-video-content
+
 ! share timestamp
 youtube.com##+js(Vavien.youtube.start-at)
 ! add to queue
