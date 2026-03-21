@@ -557,7 +557,7 @@ youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(.yt-
 ! video page recommended less than 100k views
 youtube.com###page-manager>ytd-watch-flexy #secondary yt-lockup-view-model:has(.yt-content-metadata-view-model>.yt-content-metadata-view-model__metadata-row:nth-child(2)>.yt-content-metadata-view-model__metadata-text:first-child:has-text(/^(No|\d{1,3}|\d?\.?\dK) (views?|watching)/))
 ! video page recommended chips
-youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>yt-related-chip-cloud-renderer
+youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>ytd-item-section-renderer>#header>yt-related-chip-cloud-renderer
 ! video page recommended padding
 youtube.com###page-manager>ytd-watch-flexy #secondary:style(padding:0!important)
 ! video page recommended top margin
