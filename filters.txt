@@ -347,6 +347,13 @@ mruy.github.io##td:has(button[title="Copy to clipboard"])>span:style(-webkit-lin
 ! unnecessary line breaks on browse page
 mruy.github.io##td br
 
+! STEAM
+! age check
+store.steampowered.com##+js(trusted-set-cookie, birthtime, 283993201)
+store.steampowered.com##+js(trusted-set-cookie, lastagecheckage, 1-January-1979)
+store.steampowered.com/agecheck##+js(trusted-rpnt, script, /CheckAgeGateSubmit\(.*\);/, HideAgeGate();)
+store.steampowered.com/agecheck##+js(trusted-click-element, #view_product_page_btn, , 1500)
+
 ! TECHNOPAT
 ||gravatar.com$image,domain=www.technopat.net
 ! report overlay
