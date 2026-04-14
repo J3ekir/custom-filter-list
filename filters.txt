@@ -634,7 +634,7 @@ youtube.com##.ytp-endscreen-content,.ytp-ce-element,.ytp-ce-shadow,.ytp-fullscre
 ! share timestamp
 youtube.com##+js(Vavien.youtube.start-at)
 ! add to queue
-youtube.com###contentWrapper .ytListViewModelHost>:first-child
+youtube.com###contentWrapper .ytListViewModelHost>:first-child:not(.toggleableListItemViewModelHost)
 ! redirect shorts
 ||www.youtube.com/shorts/$uritransform=/shorts\/(.*)$/watch\/$1/
 ! TRUSTED share id
