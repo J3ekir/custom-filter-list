@@ -7,7 +7,7 @@
 ! *
 ! video speed controller disable scroll
 ! https://github.com/igrigorik/videospeed/blob/50096d617a99eb378fab5ede3f722ae11a9f7918/src/ui/controls.js#L98
-*##+js(aeld, wheel, /event\.deltaMode === event\.DOM_DELTA_PIXEL/, elements, #controller)
+*##+js(aeld, wheel, DOM_DELTA_PIXEL, elements, #controller)
 
 ! 1337X
 ! footer
