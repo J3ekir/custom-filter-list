@@ -410,6 +410,7 @@ techolay.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
 ||techolay.net/sosyal/js/ozzmodz/verificationbadges/tooltip.min.js$script
 ||techolay.net/sosyal/js/sv/useractivity/last_seen.min.js$script
 ||techolay.net/sosyal/js/xfmg/editor.min.js$script
+||techolay.net/sosyal/js/apathy/CharacterCounter/Counter.min.js$script
 
 ! TORRENTLEECH
 ! scroll to top button
