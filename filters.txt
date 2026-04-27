@@ -347,6 +347,10 @@ mruy.github.io##td:has(button[title="Copy to clipboard"])>span:style(-webkit-lin
 ! unnecessary line breaks on browse page
 mruy.github.io##td br
 
+! SNAPCHAT
+! image overlay
+snapchat.com##img+span
+
 ! STEAM
 ! age check
 store.steampowered.com##+js(trusted-set-cookie, birthtime, 283993201)
