@@ -398,19 +398,19 @@ techolay.net##.p-navgroup.cxf-styleVariations
 ! nav empty section links
 techolay.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
 ! useless scripts
-||techolay.net/sosyal/js/Truonglv/ThreadCatalogs/Lib/waypoints.min.js$script
-||techolay.net/sosyal/js/Truonglv/ThreadCatalogs/toc.min.js$script
-||techolay.net/sosyal/js/mf/yazim-denetimi/duzelt.min.js$script
-||techolay.net/sosyal/js/DCom/AutoMergeDoublePost/message_merge.min.js$script
+||techolay.net/sosyal/js/apathy/CharacterCounter/Counter.min.js$script
 ||techolay.net/sosyal/js/DBTech/Credits/editor.min.js$script
 ||techolay.net/sosyal/js/DBTech/eCommerce/cart.min.js$script
+||techolay.net/sosyal/js/DCom/AutoMergeDoublePost/message_merge.min.js$script
 ||techolay.net/sosyal/js/Leo/GIFManager/gif.min.js$script
 ||techolay.net/sosyal/js/Leo/ReactionCustomization/o7_tooltip.min.js$script
 ||techolay.net/sosyal/js/liamw/postmacros/postmacros.js$script
+||techolay.net/sosyal/js/mf/yazim-denetimi/duzelt.min.js$script
 ||techolay.net/sosyal/js/ozzmodz/verificationbadges/tooltip.min.js$script
 ||techolay.net/sosyal/js/sv/useractivity/last_seen.min.js$script
+||techolay.net/sosyal/js/Truonglv/ThreadCatalogs/Lib/waypoints.min.js$script
+||techolay.net/sosyal/js/Truonglv/ThreadCatalogs/toc.min.js$script
 ||techolay.net/sosyal/js/xfmg/editor.min.js$script
-||techolay.net/sosyal/js/apathy/CharacterCounter/Counter.min.js$script
 
 ! TORRENTLEECH
 ! scroll to top button
