@@ -373,6 +373,9 @@ www.technopat.net##.userBanner:style(box-shadow:none!important)
 www.technopat.net##.p-navEl-link::before
 ! nav empty section links
 www.technopat.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
+! useless scripts
+||www.technopat.net/sosyal/js/sylphian/userpets/userpets-actions.min.js$script
+||www.technopat.net/sosyal/js/sylphian/userpets/userpets-renderer.min.js$script
 
 ! TECHOLAY
 ! beğendim|beğenmedim
