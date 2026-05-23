@@ -435,6 +435,9 @@ torrentleech.org##span.topMenuAds.div-menu-item.centerTopBar:nth-of-type(2)
 torrentleech.org##.col-md-9.centerTopBar:style(width:auto!important)
 torrentleech.org##.col-md-3.centerTopBar:style(width:auto!important;float:right!important;margin:5px!important)
 
+! TRENDYOL
+trendyol.com##.profile-plus-container
+
 ! TWITCH
 ! ads
 twitch.tv##+js(twitch-videoad)
