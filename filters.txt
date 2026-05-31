@@ -373,7 +373,7 @@ www.technopat.net##.userBanner:style(box-shadow:none!important)
 www.technopat.net##.p-navEl-link::before
 ! nav empty section links
 www.technopat.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
-! useless scripts
+! useless resources
 ||www.technopat.net/sosyal/js/apathy/CharacterCounter/Counter.min.js$script
 ||www.technopat.net/sosyal/js/liamw/postmacros/postmacros.js$script
 ||www.technopat.net/sosyal/js/mf/duzelt.min.js$script
@@ -403,7 +403,7 @@ techolay.net##.message-signature:has([data-xf-click="toggle-class"][data-class="
 techolay.net##.p-navgroup.cxf-styleVariations
 ! nav empty section links
 techolay.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
-! useless scripts
+! useless resources
 ||techolay.net/sosyal/js/apathy/CharacterCounter/Counter.min.js$script
 ||techolay.net/sosyal/js/DBTech/Credits/editor.min.js$script
 ||techolay.net/sosyal/js/DBTech/eCommerce/cart.min.js$script
@@ -417,6 +417,7 @@ techolay.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
 ||techolay.net/sosyal/js/Truonglv/ThreadCatalogs/Lib/waypoints.min.js$script
 ||techolay.net/sosyal/js/Truonglv/ThreadCatalogs/toc.min.js$script
 ||techolay.net/sosyal/js/xfmg/editor.min.js$script
+||www.technopat.net/sosyal/data/apathy/StyleSuite/asset/sparkle/l/64.gif$image
 
 ! TORRENTLEECH
 ! scroll to top button
