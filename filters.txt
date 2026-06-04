@@ -513,7 +513,7 @@ youtube.com##ytd-app>#content>#masthead-container>#masthead>#container>#center>#
 youtube.com##ytd-app:style(--ytd-persistent-guide-width:180px!important;--app-drawer-width:180px!important)
 youtube.com###guide ytd-guide-renderer.ytd-app:style(width:var(--app-drawer-width)!important)
 ! left section subscriptions icon-text gap
-youtube.com###guide yt-img-shadow.ytd-guide-entry-rerer:style(margin-right:12px!important)
+youtube.com###guide yt-img-shadow.ytd-guide-entry-renderer:style(margin-right:12px!important)
 ! left section entries icon-text gap
 youtube.com###guide .guide-icon.ytd-guide-entry-renderer:style(margin-right:12px!important)
 ! left section padding
