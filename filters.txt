@@ -399,8 +399,6 @@ techolay.net##.overlay-container.is-active > .overlay[data-url$="/report"]:style
 techolay.net##.p-footer-row-opposite
 ! signature inline spoiler
 techolay.net##.message-signature:has([data-xf-click="toggle-class"][data-class="bbCodeInlineSpoiler"])
-! style variations
-techolay.net##.p-navgroup.cxf-styleVariations
 ! nav empty section links
 techolay.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
 ! useless resources
