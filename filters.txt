@@ -401,6 +401,10 @@ techolay.net##.p-footer-row-opposite
 techolay.net##.message-signature:has([data-xf-click="toggle-class"][data-class="bbCodeInlineSpoiler"])
 ! nav empty section links
 techolay.net##.p-sectionLinks.p-sectionLinks--empty:style(height:0!important)
+! DBTech JS
+techolay.net##+js(set, DBTech, {})
+techolay.net##+js(set, DBTech.eCommerce, {})
+techolay.net##+js(set, DBTech.eCommerce.config, {})
 ! useless resources
 ||techolay.net/sosyal/js/apathy/CharacterCounter/Counter.min.js$script
 ||techolay.net/sosyal/js/DBTech/Credits/editor.min.js$script
