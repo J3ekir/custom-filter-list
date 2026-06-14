@@ -580,6 +580,8 @@ youtube.com##.ytLockupMetadataViewModelTitle:style(padding-right:20px!important)
 youtube.com##.ytLockupViewModelVertical.ytLockupViewModelRichGridLegacyMargin .ytLockupViewModelContentImage:style(padding-bottom:4px!important)
 ! main section metadata top margin
 youtube.com##.ytContentMetadataViewModelMetadataRow:style(margin-top:0!important)
+! main section view count
+youtube.com##.ytContentMetadataViewModelLeadingIcon
 ! main section less than 100k views
 ! No views
 ! 1 view
