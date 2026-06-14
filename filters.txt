@@ -350,6 +350,9 @@ mruy.github.io##td br
 ! image overlay
 snapchat.com##img+span
 
+! SPOTIFY
+||open.spotify.com$important,frame
+
 ! STEAM
 ! age check
 store.steampowered.com##+js(trusted-set-cookie, birthtime, 283993201)
