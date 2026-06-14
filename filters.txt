@@ -574,6 +574,8 @@ youtube.com###page-manager>[page-subtype="home"] #contents.ytd-rich-grid-rendere
 youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer yt-collections-stack>div>:not(:last-child)
 ! main section avatar margin
 youtube.com##.ytLockupMetadataViewModelAvatar:style(margin:6px!important)
+! main section title right padding
+youtube.com##.ytLockupMetadataViewModelTitle:style(padding-right:20px!important)
 ! main section less than 100k views
 ! No views
 ! 1 view
