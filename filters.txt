@@ -591,9 +591,9 @@ youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer yt-colle
 ! 1.2 billion views
 ! 12 billion views
 ! 123 billion views
-youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(.yt-content-metadata-view-model>.yt-content-metadata-view-model__metadata-row:nth-child(2)>.yt-content-metadata-view-model__metadata-text:first-child:has-text(/^(No|\d{1,3}|\d?\.?\dK) (views?|watching)/))
+youtube.com###page-manager>[page-subtype="home"] ytd-rich-item-renderer:has(.ytIconWrapperHost:has([d="M5 4.623v14.755a1.5 1.5 0 002.261 1.294l12.766-7.51L22 12.002l-1.973-1.162L7.26 3.33A1.5 1.5 0 005 4.623Zm2 13.88V5.497L18.056 12 7 18.503Z"])+.ytAttributedStringHost:matches-attr(aria-label="/^((No|\d{1,3}|\d?\.?\d thousand) (views?|watching))/"))
 ! video page recommended less than 100k views
-youtube.com###page-manager>ytd-watch-flexy #secondary yt-lockup-view-model:has(.yt-content-metadata-view-model>.yt-content-metadata-view-model__metadata-row:nth-child(2)>.yt-content-metadata-view-model__metadata-text:first-child:has-text(/^(No|\d{1,3}|\d?\.?\dK) (views?|watching)/))
+youtube.com###page-manager>ytd-watch-flexy #secondary yt-lockup-view-model:has(.ytIconWrapperHost:has([d="M5 4.623v14.755a1.5 1.5 0 002.261 1.294l12.766-7.51L22 12.002l-1.973-1.162L7.26 3.33A1.5 1.5 0 005 4.623Zm2 13.88V5.497L18.056 12 7 18.503Z"])+.ytAttributedStringHost:matches-attr(aria-label="/^((No|\d{1,3}|\d?\.?\d thousand) (views?|watching))/"))
 ! video page recommended chips
 youtube.com###page-manager>ytd-watch-flexy #secondary #related #items>ytd-item-section-renderer>#header>yt-related-chip-cloud-renderer
 ! video page recommended padding
