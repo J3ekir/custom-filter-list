@@ -589,6 +589,8 @@ youtube.com##.ytContentMetadataViewModelMetadataRow:style(margin-top:0!important
 youtube.com##.ytContentMetadataViewModelDelimiter:style(margin:0 2px!important)
 ! main section view count
 youtube.com##.ytContentMetadataViewModelLeadingIcon
+! main section video title
+youtube.com##.ytContentMetadataViewModelMetadataRow>.ytAttributedStringHost:first-child:style(max-width:150px!important;overflow:hidden!important)
 ! main section less than 100k views
 ! No views
 ! 1 view
